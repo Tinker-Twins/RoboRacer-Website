@@ -1,0 +1,181 @@
+{
+  "note": "About page, section 'Related platforms' (was 'Spinoffs'; Cedric, 2026-09-26: Quanser is not a spinoff, so the section names how each platform relates to RoboRacer). Nothing here is in the roboracer-content skill yet; 'status' records that and is not rendered (verify tags left the site, Cedric 2026-09-25). 'what' and 'origin' are our own words, drafted from the first-party pages in 'source' and 'evidence'; never paste their copy. An 'origin' that starts with TODO(content) is not rendered, but the entry is. 'entries' render on /about; 'candidates' do not render until Cedric moves them into 'entries'. Each entry's feature shows three images from public/media/spinoffs: 'logo' (the company's mark beside the name), 'car' (its car, the main visual, linking to the car's page) and 'preview' (our own 1280x800 capture of its homepage, framed as a browser window that links to 'url'). Rule 8 exception: Cedric, 2026-09-25, asked to feature Neobotics and Quanser with their logo, car and a preview of their website ('embed their website, summarized'), so these images come from neobotics.org and quanser.com; permission status 'Cedric-directed; company not yet asked'. Every image has a provenance row in docs/ASSET_MANIFEST.md (section 'About: spinoff features'). An image field left null or absent drops that slot.",
+  "updated": "2026-09-26",
+  "entries": [
+    {
+      "name": "Neobotics",
+      "kind": "company",
+      "label": "nonprofit",
+      "what": "A Massachusetts nonprofit. Its NeoRacer is an open autonomous race car for high schools and colleges, sold ready to run.",
+      "origin": "The NeoRacer is built to RoboRacer race rules. Neobotics co-organized the 30th RoboRacer competition, at VTC 2026 in Boston.",
+      "since": 2025,
+      "url": "https://neobotics.org/",
+      "logo": {
+        "src": "/media/spinoffs/spinoff-neobotics-icon-96.webp",
+        "width": 128,
+        "height": 96,
+        "alt": "Neobotics logo",
+        "source": "https://neobotics.org/images/logos/neobotics/neobotics-icon-red.webp (the partner wall now uses the wordmark instead, Cedric 2026-09-28)"
+      },
+      "car": {
+        "src": "/media/spinoffs/spinoff-neobotics-car-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "The NeoRacer: a black race car with orange wheels, a rear wing and a lidar on top, in a dark studio with smoke",
+        "name": "NeoRacer",
+        "url": "https://neobotics.org/kits",
+        "source": "https://neobotics.org/images/studio/neoracer_studio_angle_dark_smoke.webp (on https://neobotics.org/kits)"
+      },
+      "preview": {
+        "src": "/media/spinoffs/spinoff-neobotics-site-960.webp",
+        "width": 960,
+        "height": 600,
+        "alt": "The neobotics.org homepage further down: their vision line, then a red panel reading 'NEO RACER' beside the car, black with red wheels, lidar and rear wing",
+        "source": "our capture of https://neobotics.org/ at 1280x800, 2026-09-25"
+      },
+      "status": "verify",
+      "source": "https://neobotics.org/about",
+      "named_by": "Cedric, 2026-09-24",
+      "evidence": [
+        {
+          "url": "https://neobotics.org/about",
+          "says": "Neobotics Foundation incorporated Feb 26, 2025 as a Massachusetts nonprofit; 501(c)(3) in June 2025; first NeoRacer kits shipped Aug 2026; hosting an autonomous racing event with RoboRacer at IEEE VTC2026-Fall. Founders and several advisors are Boston University people."
+        },
+        {
+          "url": "https://neobotics.org/kits",
+          "says": "NeoRacer product page: aimed at high schools and colleges; lists 'Compatible with Roboracer AI'."
+        },
+        {
+          "url": "https://arxiv.org/abs/2607.26855",
+          "says": "NeoRacer paper (Bandyopadhyay, Mehta, El Mabsout, Mancuso; Jul 29, 2026): open hardware (CERN-OHL-S v2) and software (GPLv3); 'fully compatible with the F1Tenth autonomous racing ecosystem and competition rules'; the VTC 2026 event is co-organised with the RoboRacer Foundation; a school-to-college pathway is co-designed with the RoboRacer Foundation."
+        },
+        {
+          "url": "https://github.com/f1tenth/vtc2026-race",
+          "says": "30th Roboracer Autonomous Racing Competition, VTC2026-Fall, Boston, Sep 6-9, 2026. Organizers: Rahul Mangharam, Ahmad Amine, Koneshka Bandyopadhyay (Founder & CEO, Neobotics Foundation Inc.)."
+        },
+        {
+          "url": "https://github.com/f1tenth/bu2024_race",
+          "says": "Context only, not used in the copy: the BU F1TENTH Autonomous Grand Prix, Nov 22, 2024, was organized by Boston University faculty incl. Renato Mancuso (now a Neobotics advisor and NeoRacer co-author) with Rahul Mangharam."
+        }
+      ],
+      "note": "Source: Cedric, 2026-09-24 (named Neobotics as a spinoff), alongside the first-party pages in evidence. No public page says Neobotics grew out of RoboRacer; the sourced link is the rules compatibility and the VTC 2026 co-organization. If the founders came out of the BU F1TENTH Grand Prix (Nov 2024) or the BU F1TENTH student club, say so and the origin line can carry it. Cedric, 2026-09-25: show their car, logo and a preview of their website; the logo, car photo and homepage capture come from neobotics.org at his direction (permission: Cedric-directed; Neobotics not yet asked). The NeoRacer paper (arXiv 2607.26855) carries arXiv's non-exclusive licence, not CC BY, so no figure is taken from it."
+    },
+    {
+      "name": "Quanser",
+      "kind": "company",
+      "what": "An engineering education company. Its Self-Driving Car Studio is built around the QCar 2, a 1/10-scale research car.",
+      "origin": "A commercial research car in the same class. Not affiliated with RoboRacer.",
+      "since": null,
+      "url": "https://www.quanser.com/",
+      "logo": {
+        "src": "/media/spinoffs/spinoff-quanser-icon-96.webp",
+        "width": 91,
+        "height": 96,
+        "alt": "Quanser logo",
+        "source": "the Q mark of https://www.quanser.com/wp-content/uploads/2023/02/quanser.svg (the site's favicon mark, https://www.quanser.com/wp-content/uploads/2023/01/favicon-1.png)"
+      },
+      "car": {
+        "src": "/media/spinoffs/spinoff-quanser-car-1200.webp",
+        "width": 1200,
+        "height": 800,
+        "alt": "The QCar 2: a black 1/10-scale car with a lidar, a depth camera and a light strip along its side, on white",
+        "name": "QCar 2",
+        "url": "https://www.quanser.com/products/qcar-2/",
+        "source": "https://www.quanser.com/wp-content/uploads/2024/08/QCar2-08.jpg (gallery of https://www.quanser.com/products/qcar-2/)"
+      },
+      "preview": {
+        "src": "/media/spinoffs/spinoff-quanser-site-960.webp",
+        "width": 960,
+        "height": 600,
+        "alt": "The quanser.com homepage: the Quanser header and menu over a dark lab shot, with the headline 'Transforming educational experiences, accelerating innovative research'",
+        "source": "our capture of https://www.quanser.com/ at 1280x800, 2026-09-25, with the site's 'Book a meeting' pop-up closed"
+      },
+      "status": "verify",
+      "source": "https://www.quanser.com/products/qcar-2/",
+      "named_by": "Cedric, 2026-09-24",
+      "evidence": [
+        {
+          "url": "https://www.quanser.com/products/qcar-2/",
+          "says": "QCar 2: open-architecture, 1/10th scale vehicle for academic self-driving work; the feature vehicle of the Self-Driving Car Studio. No mention of F1TENTH or RoboRacer."
+        },
+        {
+          "url": "https://www.quanser.com/about/",
+          "says": "Founded by an engineering professor, Dr. Jacob Apkarian, to improve his teaching; '35+ years of academic partnership'. No mention of F1TENTH or RoboRacer."
+        }
+      ],
+      "note": "Cedric, 2026-09-26: Quanser is not affiliated with RoboRacer and is not a spinoff; it is mentioned here as a related platform, with the relation stated plainly. Nothing on the site claims lineage either way. Earlier note: Cedric named Quanser on 2026-09-24; its pages (evidence) do not mention F1TENTH or RoboRacer."
+    }
+  ],
+  "candidates": [
+    {
+      "name": "ForzaETH Race Stack",
+      "kind": "product",
+      "what": "ETH Zurich's open-source software for head-to-head racing on the RoboRacer car, built for off-the-shelf parts.",
+      "origin": "The ForzaETH student team wrote it to race RoboRacer competitions, won several, then released the whole stack in 2024.",
+      "since": 2024,
+      "url": "https://github.com/ForzaETH/race_stack",
+      "logo": null,
+      "status": "verify",
+      "source": "https://arxiv.org/abs/2403.11784",
+      "evidence": [
+        {
+          "url": "https://arxiv.org/abs/2403.11784",
+          "says": "ForzaETH Race Stack paper (Mar 2024, Journal of Field Robotics): an autonomous racing software platform designed for F1TENTH on commercial off-the-shelf hardware; it won the official F1TENTH international competition multiple times."
+        },
+        {
+          "url": "https://github.com/ForzaETH/race_stack",
+          "says": "Repo by ETH Zurich's D-ITET Center for Project Based Learning; builds on f1tenth_system, the F1TENTH simulator and the f1tenth vesc driver."
+        }
+      ],
+      "note": "A product that came out of racing the car. Keep, or is ForzaETH better shown as a team?"
+    },
+    {
+      "name": "RoboRacer Sim Racing League",
+      "kind": "initiative",
+      "what": "An online league where teams race a digital twin of the RoboRacer car in the AutoDRIVE simulator, no car needed.",
+      "origin": "Clemson's AutoDRIVE team started it with RoboRacer organizers at IROS 2024; it has run at CDC, ICRA and IROS since.",
+      "since": 2024,
+      "url": "https://autodrive-ecosystem.github.io/competitions/",
+      "logo": null,
+      "status": "verify",
+      "source": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024/",
+      "evidence": [
+        {
+          "url": "https://autodrive-ecosystem.github.io/competitions/roboracer-sim-racing-iros-2024/",
+          "says": "The first RoboRacer Sim Racing League, at IROS 2024, on AutoDRIVE digital twins; organizers include Rahul Mangharam, Venkat Krovi, Johannes Betz, Chinmay and Tanmay Samak, Ahmad Amine, Hongrui Zheng."
+        },
+        {
+          "url": "https://autodrive-ecosystem.github.io/competitions/",
+          "says": "Editions listed: IROS 2024, CDC 2024, ICRA 2025, CDC-TF 2025, ICRA 2026, IROS 2026."
+        },
+        {
+          "url": "https://github.com/AutoDRIVE-Ecosystem/AutoDRIVE-RoboRacer-Sim-Racing",
+          "says": "RoboRacer Digital Twin Autonomous Sim-Racing League using AutoDRIVE Ecosystem (successor of the 2024 F1TENTH Sim Racing repo)."
+        }
+      ],
+      "note": "Co-run with RoboRacer, so arguably part of RoboRacer rather than a spinoff. Keep it here, or move it to Race?"
+    },
+    {
+      "name": "Cavalier Autonomous Racing",
+      "kind": "team",
+      "what": "The University of Virginia's full-size autonomous racing team, the first American team to win the Indy Autonomous Challenge.",
+      "origin": "Founded by F1TENTH co-founder Madhur Behl. Most of its first members had worked on F1TENTH cars for five years.",
+      "since": null,
+      "url": "https://www.indyautonomouschallenge.com/cavalier-autonomous-racing",
+      "logo": null,
+      "status": "verify",
+      "source": "https://www.madhurbehl.com/",
+      "evidence": [
+        {
+          "url": "https://www.madhurbehl.com/",
+          "says": "Behl is founder and team principal of UVA's Cavalier Autonomous Racing, the first American team to win the Indy Autonomous Challenge; he co-founded the F1Tenth platform and its Grand Prix competitions."
+        },
+        {
+          "url": "https://www.indyautonomouschallenge.com/cavalier-autonomous-racing",
+          "says": "IAC team profile: the majority of team members had been involved in F1/10 autonomous racing development for the past 5 years."
+        }
+      ],
+      "note": "The clearest 'grew out of F1TENTH' story in the public record. The team's founding year is not on either page."
+    }
+  ]
+}

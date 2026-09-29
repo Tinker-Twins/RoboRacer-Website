@@ -1,270 +1,746 @@
-<style>
-.post ol {
-  list-style-type: lower-alpha;
-}
+# RoboRacer Rules
+
+## General
+_Version: 3.2026-draft_
+
+<!-- Add reference to RFC for MUST, MAY, SHOULD, ... This makes defining rules a lot easier: https://datatracker.ietf.org/doc/html/rfc2119 -->
+
+These rules apply to all official in-person RoboRacer competitions.
+
+The rules used in a competition are posted on the competition website along with a link to the specific version in the rules repository.
+
+With every competition instance, general rules are accompanied by competition rules.
+
+- Competition rules MAY alter general rules or introduce additional rules.
+  - In parts where both documents contradict, competition rules take preference.
+- Note that competition rules MAY be versioned differently, e.g., by having a changelog.
+- Organizers reserve the right to change the rules applied in the competition.
+  - Subsequent changes MUST be announced to all registered teams.
+
+<!-- _General rules SHOULD NOT change after announcing them. Competition rules MAY change even later._ -->
+
+<!-- _Note: It is better to remove / relax something. It is NOT RECOMMENDED to add more constraints._ -->
+
+Violating the rules MAY result in a team warning. Upon receiving three warnings, the team MAY be disqualified from the competition. Multiple disqualifications and repeated misbehaviour MAY result in a ban, i.e., inability to attend future competitions.
+
+- Note that warnings are induced on whole teams, not individuals.
+
+Ultimately, organizers reserve the right to have a final say when interpreting the rules.
+
+- This also applies to, e.g., assigning blame in the case of a vehicle collision in Head-to-Head.
+
+These rules are organized as follows:
+
+- [Definitions](#definitions)
+- [Vehicle specifications](#vehicle-specifications)
+- [Track](#track)
+- [Competition organization](#competition-organization)
+- [Registration](#registration)
+- [Eligibility checklist](#eligibility-checklist)
+- [On-site registration](#on-site-registration)
+- [Session](#session)
+- [Practice](#practice)
+- [Inspection](#inspection)
+- [Qualification](#qualification)
+- [Race](#race)
+- [Time Trial](#time-trial)
+- [Head-to-Head Race](#head-to-head-race)
+- [Awards ceremony](#awards-ceremony)
+
+
+## Definitions
+<a id="definitions"></a>
+
+- Team: A group of people who own a racing car and are interested in competing.
+    - Registered team: Team that registered for the competition using an official registration method, e.g., sending a registration form.
+    - Approved team: Registered team that sent all required materials to the organizers before the deadline and passed all necessary checks.
+    - Participating team: Approved team that successfully registered on-site.
+    - Inspected team: Participating team that has at least one inspected car.
+    - Qualified team: Inspected team that successfully finished the Qualification.
+- Team Member: A member of the team. Each person MUST belong to only one team during the competition.
+    - Captain: A team member who represents the team and is used as a contact person by the competition organizers. Teams choose their captain during the on-site registration for the duration of the competition.
+    - <a id="operator"></a>Operator: A team member who is holding the remote controller in order to hit the [kill-switch](#kill-switch) when necessary.
+      - <a id="operator-stance"></a>Operator stance: A stance in which the Operator holds the remote overhead in one hand. Changing into this stance also signals that the team is ready for a race.
+- Car: Vehicle used in the competition, assembled according to the Vehicle specification. Each team MUST have its own car.
+    - Inspected car: Car that successfully passed through the Inspection.
+    - Hardware list: List of components that the car is composed of, along with their costs. All parts of the Vehicle specification MUST be addressed along with additional sensors.
+    - <a id="kill-switch"></a>Kill-switch: A method to remotely and immediately stop the car.
+- Track: Delimited area used for racing.
+    - Track border: A barrier that delimits the driveable area.
+    - Track section: Part of the track along its centerline spanning across the whole width.
+    - Starting line: Line (physical or virtual) on the ground that marks the starting position of a car. MAY be identical to the Finish line.
+    - Finish line: Line (physical) on the ground that marks the end of the lap on the track. MAY be identical to Starting line.
+- Session: A block of a specific competition part.
+    - Slot: Time block reserved for a subset of teams. A single session usually contains multiple slots.
+    - Heat: Single instance of n-teams racing on the track. A race can be composed of multiple heats.
+- <a id="touch"></a>Touching: Displacing an object by less than 5 cm from its original position.
+- <a id="crash"></a>Crashing: Displacing an object by at least 5 cm from its original position. When involving another car, crashing means significantly altering its expected trajectory.
+- Overtake: The act of one car bypassing an opponent's car such that the overtaking car leads by at least half of its own length.
+- Offense: Minor (less serious) infringement of the rules that MAY result in a penalty. Repeated offenses MAY be treated as a violation.
+    - Penalty: Punishment for offenses and violations.
+- Violation: Major (more serious) infringement of the rules that MAY result in a penalty. A violation MAY result in warnings.
+    - Warning: Issued for violating the rules. Three warnings MAY lead to disqualification from the competition.
+    - Disqualification: Revoking the ability to attend the competition.
+- <a id="whistle"></a>Whistle: Sound signal (e.g., whistle, buzzer) to alert teams. Used during the race to highlight an important event. May be accompanied with flags. <!-- Notifying sound -->
+- <a id="flags"></a>Flags: Visual signal to the teams. May be accompanied with whistles. When flags are used during the competition, their meaning is as follows:
+    - Checkered flag: A flag is raised to indicate the team is on the last lap. The flag is dropped and then waved when the team finishes and wins the current heat.
+    - <a id="red-flag"></a>Red flag: A flag is raised to signal that a crash has necessitated stopping the race. The flag is dropped after all cars are stopped, and team members are allowed to approach the track.
+    - <a id="green-flag"></a>Green flag: A flag is raised to signal that stopped cars may safely resume racing. After the teams confirm their readiness (using [Operator stance](#operator-stance)), the flag is dropped, allowing the stopped cars to resume the race.
+    - Blue flag: A flag is raised during open testing to indicate that a team needs to let another team pass.
+    - Yellow flag: A flag is raised to indicate that teams must drive slowly because of, e.g., a hazard on the track. Yellow flags MAY also be placed on the track to define a slow-speed section. <!-- This used to be "warning for a rule violation". -->
+    - Black-and-White flag: A flag is raised to warn a team of a rule violation.
+    - <a id="black-flag"></a>Black flag: A flag is raised to signal that a team is disqualified. The flag is dropped after the disqualified team stops the car and leaves the track. The opponent is allowed to continue the race.
+    - _Note: Flags MAY be pointed at the [Operator](#operator) to signalize that their effect applies only for that team. This is used, e.g., when only a single set of flags is available._
+
+
+## Vehicle specifications
+<a id="vehicle-specifications"></a>
+
+Each vehicle will be inspected during the competition to determine whether it meets the specified criteria. In case the criteria are not met, the vehicle is not allowed to be used in the competition.
+
+1. Size
+    - Width: 296mm ± 10%
+    - Length: 568mm ± 10%
+    - Height: ≤ 400mm
+    - The size limit is imposed on the fully equipped car, i.e., as used during the race.
+        - The height limit MUST be obeyed at all times, e.g., it MUST NOT be violated because of springs.
+2. Weight
+    - ≤ 5kg
+    - The weight limit is imposed on the fully equipped car, i.e., as used during the race.
+3. Chassis
+    - No additional limits.
+    - Recommended: Traxxas 1:10 (e.g., TRA74054, TRA6804R, TRA68086)
+4. Bumpers
+    - A front bumper (at least 5 cm thickness) from a soft material is required.
+    - The bumper must be attached to the car in a way that it does not fall off at any time.
+    - Example: TRA7436 + TRA7437 + TRA7415X
+5. Tires
+    - No limits.
+6. Drivetrain
+    - No limits. Both 2WD and 4WD are allowed.
+7. Motor
+    - Electric motors only.
+    - Only a single motor can be used to operate the drivetrain.
+      - Torque: ≤ 0.237N·m (100A @ 3500RPM/V) + 10% <!-- Used https://things-in-motion.blogspot.com/2018/12/how-to-estimate-torque-of-bldc-pmsm.html -->
+      - Recommended: Velineon 3500
+    - Other means of propulsion (such as propellers) are not allowed.
+8. Battery
+    - Up to **4S LiPo** for powering the motor.
+      - <span style="color: orange">Maximum nominal voltage of the battery: 14.8V (4 × 3.7V)</span>
+      - When using a battery with another cell chemistry, its performance MUST NOT exceed this.
+      - <span style="color: orange">The batteries MUST NOT be connected in series to effectively increase the nominal voltage beyond the limit.</span>
+    - Additional batteries for powering other components are not limited.
+9. Electronic Speed Controllers
+    - No limits.
+    - Recommended: VESC
+10. Remote controller
+    - No limits.
+    - It must have a [kill-switch](#kill-switch) ability so the [Operator](#operator) is able to stop the car immediately and remotely.
+11. Compute
+    - No limits, but all computation during the race MUST be performed by one or more computing devices physically mounted on the vehicle, powered by on-board power sources (i.e batteries). Offloading computation to external servers, cloud services, or off-vehicle devices is not allowed.
+    - Recommended: NVIDIA Jetson Xavier, NVIDIA Jetson Orin, Intel NUC, etc.
+12. LiDAR
+    - Number of planes: Not limited
+    - Detection range: Not limited
+    - Scanning frequency: ≤ 40Hz
+    - Angular resolution: ≥ 0.125°
+    - Recommended: Hokuyo UST-30LX, Hokuyo UST-10LX, etc.
+13. Camera
+    - No limits. Monocameras and stereocameras are allowed.
+14. External localization
+    - GPS and similar indoor solutions are not allowed.
+    - Exception: Organizers MAY use it.
+15. Production cost
+    - No limits.
+    - **Starting from 2027, it will be limited to ~ 5000$.** (Current estimate.)
+    - Contains the price of all components + price estimation of custom parts.
+        - The retail price must be free of any discounts.
+        - Custom parts: The price estimate for a company to manufacture your source file.
+
+Other sensors are not restricted; however, they MUST be mentioned in the hardware list.
+
+
+### Vehicle parameters
+
+- Teams MUST NOT hinder the opponents from detecting their car, e.g., using materials or colors to reduce the car's reflectivity.
+- At all times, the car MUST occupy a square-shaped space of at least 12×12 cm at every horizontal plane between 10 and 30 cm above the ground. Usually, this is achieved by placing a 12×12×20 cm box on top of the car at its rear.
+    - The box MUST be made of LiDAR-perceivable material (e.g., cardboard).
+    - Provided the object produces the required LiDAR signature, additional aerodynamic features such as fins or wings may be added.
+    - The box MAY have any color as long as it is easily perceivable by the LiDARs of the other cars.
+- Tire cleaning is permitted as long as the solution used does not leave any residue on the track after cleanup.
+    - The following methods are prohibited:
+      - Cleaning using soaps. <!-- Add more solutions here if any. -->
+
+    - Volatile chemicals (e.g., alcohol-based cleaning liquids) are allowed.
+    - The team is responsible for ensuring that the tires are completely dry and that no solution can be extracted from the tires when compressed.
+- Tire modifications are generally prohibited. Examples of prohibited modifications include, but are not limited to:
+    - Deliberately sanding the tires during the competition.
+    - Using traction compounds or "sauces".
+- All vehicle components MUST be either commercially available or manufactured by the team.
+    - Custom parts MAY be manufactured by a company; however, the team needs to own all required source files.
+- Additional requirements MAY be imposed on the vehicles in the competition rules. Examples include:
+    - Space for a sticker (e.g., competition sponsors, vehicle identification).
+    - Space for an active marker (e.g., external localization for organizers).
+    - Empty USB port (e.g., for powering up additional electronics).
+
+
+## Track
+<a id="track"></a>
+
+The racing track is a delimited area used for racing. Organizers are responsible for defining and marking the track layout (e.g., using floor tape) and maintaining it throughout the competition.
+
+The competition rules MUST specify:
+
+- Nature of the surface (flatness, reflectiveness, material).
+- Nature of the room (e.g., walls/windows, ceiling type).
+- Type of delimiters (e.g., air ducts, cardboard boxes).
+- Height of delimiters.
+- Maximum size (e.g., area) of the track.
+- Minimum track width (minimum distance between the inner and outer border).
+- List of used track features.
+
+
+### General track notes
+
+- The surface friction MAY differ slightly across the track due to natural variation.
+- Windows or semi-transparent surfaces surrounding the room may cause incorrect sensor measurements.
+- When the track is delimited by stacked pipes, there might be gaps between them.
+- Due to vehicle tilt, sensors may sense objects beyond the track borders or the floor beneath the barriers.
+- When multiple tracks are present, their parameters, features, and characteristics MAY differ.
+    - The types of sessions MAY differ per track. The organizers MUST clearly indicate the type of session currently active for each track.
+
+
+### Track behaviour
+
+- The teams are obliged to be respectful to other users of the track.
+    - Teams MUST pay attention when moving around the track, especially when running or jumping.
+      - In the event of a collision between a person and a car, the person on the track is always considered at fault.
+    - Teams are not allowed to obstruct other teams by any means (e.g., if specified, leaving a stationary car on the track outside of the designated area).
+    - Teams are not allowed to endanger other teams, cars, and especially spectators and bystanders by inappropriate behaviour.
+- While using the track:
+    - Teams SHOULD NOT intentionally run algorithms they expect will cause the car to crash into the track boundaries. Overly aggressive testing may alter the track layout.
+    - Teams SHOULD take care to minimize any damage to the track.
+    - Teams MUST have at least one team member ([Operator](#operator)) that keeps an eye on the car and is prepared to activate the [kill-switch](#kill-switch).
 
-.post ol ol,
-.post ul ol {
-  list-style-type: lower-roman;
-}
-.post ol, .post ul, .post p {
-  margin-bottom: 0rem;
-}
-h2, h3, h4, h5, h6 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-</style>
+- Teams not participating in the current session MUST stay clear of the track area at all times.
+
 
-[comment]: <> (NEW RACE CHANGE HERE)
-These rules are prepared for the _24th International Roboracer Autonomous
-Racing Competition_. Rules are subject to change. The latest version
-can be found [here](http://icra2025-race.roboracer.ai/rules.html).
+### Track features
 
-Date: 2026-01-10
+A list of possible track features follows. Competition rules specify which are used.
 
 
-# 1. General
+#### Dead-ends
 
-International Roboracer Autonomous Racing Competition is an autonomuos vehicle racing competition open to teams of all levels. Competing teams may consist of any number of members; however, each participant should be a member of only one team.
+Track contains parts that do not lead to the finish line.
 
-The competition is organized as an in-person competition.
+- Entering a dead-end is not penalized.
 
-Teams can register for the competition using a [registration form](https://forms.gle/FdfY9sKXREdu772u6).
 
-The preferred communication method with the organizers is the _#ICRA2025_ channel on [Roboracer-teams Slack](https://join.slack.com/t/robo-racer/shared_invite/zt-2pq4fuyjq-gTUflzeZDKDDGjuVoeZqNg).
+#### Speed-restricted sections
 
+Track contains sections with defined speed limits.
 
-# 2. In-person (physical) competition
+- Driving over the speed limit is not allowed.
+    - If a car exceeds the limit, the team MUST stop the car and move it to before the speed-restricted section.
+- The speed limit is defined in one of the following ways:
+    - Area delimitation with special markings.
+- Competition rules MUST specify:
+    - Speed limits used within the competition.
 
-1. The competition will comprise two main stages – Online Qualification and Vehicle Head-to-Head Knockout Races.
 
-In the online qualification round, teams must submit a 1-minute video showing their car driving autonomously on a track without any human intervention.
+#### Pit lane
 
-Teams that qualify will compete in-person at Techfest, IIT Bombay, where they will first get a 15-minute practice session on the track, followed by an open track trial for all teams.
+Track contains sections that are marked as a pit lane.
 
-The knockout races will then determine the winners, with the fastest lap deciding each matchup. In case of a tie, the best lap time from the open track trials will be used.
+- When this track feature is used, deliberate stopping outside the pit lane is not allowed.
+    - Stopping outside of the pit lane is considered a minor offense.
+- Teams MUST add cars to the track only at a pit lane area.
+    - Teams SHOULD remove the car from the track here as well, unless required by the current situation.
 
-2. Teams registered for the in-person competition need to provide and build a Roboracer car by themselves according to the constraints listed below. In addition, each team must have a unique vehicle (i.e., a research lab may not field six teams with one car).
 
-4. To increase the quality of the future Roboracer competitions, the top 3 teams of each race are encourage to publish the code of their algorithm under an open-source license in the [Roboracer repository](https://github.com/f1tenth) on Github.
+#### Open walls
 
-5. In order to better accomodate all participating teams, all teams should have **at most 10 team members** present at the race space (includes sideline and seating area) during the event. There are no restrictions on the number of team members otherwise and all members will receive certificates of participation.
+Track borders are not closed, i.e., there are horizontal gaps in them.
 
-6. Teams should not display any national flags or national symbols. This competition is between peers, not nations.
+- Gaps might be in the inner walls as well as in the outside walls.
+- Inside the gaps, the track border is delimited by a tape on the ground (or any other marking technique).
+    - If the tape width is not negligible, its inner edge is considered as the border.
 
-## 2.1 Vehicle Specifications
+- Driving through or across wall gaps is not allowed.
+    - Crossing the track border is considered a [touch](#touch).
+    - Crossing the track border by parts of at least 3 wheels is considered a [crash](#crash).
+- The maximum gap width is lower than the minimum track width in the track section.
+    - _In other words, the open wall gap is always shorter than the track width._
 
-Only cars that meet the following constraints will be allowed to participate:
 
-  1. The vehicle is constructed according to the official [bill of materials](https://f1tenth.readthedocs.io/en/foxy_test/getting_started/build_car/bom.html#bill-of-materials). The teams are allowed to use components of similar or lower specifications.
-  2. Each vehicle will be inspected as a part of qualification whether it meets the criteria. In case the criteria are not met, the vehicle is disqualified.
-  3. _Chassis_:
-      Any chassis listed as *1:10 scale* car is allowed. Preferably **1:10 Traxxas** (e.g., [TRA74054](https://traxxas.com/products/models/electric/ford-fiesta-st-rally), [TRA6804R](https://traxxas.com/products/models/electric/6804Rslash4x4platinum), [TRA68086](https://traxxas.com/products/models/electric/slash-4x4-tsm)), but generally, any chassis with similar dimensions is allowed. Both 4WD and 2WD are permitted.
-  4. _Main Computation Unit_:
-      Due to supply chain issues, we're removing constraints on the main computation unit. Any suitable computing unit that physically fits on the vehicle within the size limit is allowed. Examples inlcude Nvidia Jetson Xavier NX, Nvidia Jetson Orin Nano, Nvidia Jetson TX2, Nvidia Jetson Nano, Intel NUC, Raspberry Pi, etc. In the spirit of the competition, all computation must be done onboard the vehicle.
-  5. _LiDAR_:
-      [**Hokuyo UTM-30LX**](https://www.hokuyo-aut.jp/search/single.php?serial=169), its equivalent, or any 2D LiDAR with similar specifications is recommended but not required. The main characteristics are detection range (~30 m), scanning frequency (~40 Hz), and angular resolution (~0.25°).
-  6. _Camera_:
-     The recommended camera for the competition is Intel RealSense D455 or similar; other monocameras (e.g., Logitech C270, Logitech C920, Raspberry Pi Camera Module V2, Arducam) and stereocameras (e.g., ZED) are also recommended for practice, but only the Intel RealSense D455 or similar should be used during the competition runs.
-  7. _Engine_:
-      Only brushless DC motors are allowed. The [**Velineon 3500 kV**](https://traxxas.com/products/parts/motors/velineon3500motor), its equivalent, or anything of lower specifications regarding power and torque are allowed. The car must have **only one** DC motor driving the wheels. The motor could either be sensored or sensorless as long as it meets the specifications
-  8.  _Other sensors_:
-      Other sensors (IMUs, encoders, custom electronic speed controllers) are not restricted. Indoor GPS sensors (e.g. Marvelmind) are not allowed.
-  9. _Tires_:
-      There are no resutrictions on the tires used by the car. Any and all tires that fit the wheels of the chassis are permitted.
-  10. _Battery_:
-      The drive motor should be driven *at most* by one battery rated at most **4s**. There are no limitations on the capacity of the battery. More than one battery can be used on the car as long as only one 4s battery powers the motor. Teams are encouraged to have spare batteries to allow fast replacements in case the battery gets discharged at an inconvenient time.
-  11. _Transmitter Spot_:
-      The car must have a designated spot at the front-half of the car of atleast 8cm x 12cm for a transmitter. The spot should be easily accessible and nothing should be on top of the transmitter. This spot will be used for a transmitter that will be used for time-keeping. 
-<!--         
-3. **Open Class** allows cars that do not fit into Restricted Class. These cars may compete, but they are not eligible for prizes, their ranking is kept separate, and you might not have any peers competing in the class. In addition, the following constraints are applied:
+#### Intersections
 
-    1. Car dimensions should be within 20% difference to the dimensions of the largest car required in the Restricted Class (in this case [TRA68086](https://traxxas.com/products/models/electric/slash-4x4-tsm?t=specs)). This is to make sure that the car can fit comfortably in the racing track and that it can compete with other cars in the Head-to-Head race.
-    2. Only electric drive motors are allowed. -->
+_Note: This won't be used for ICRA 2026 race._
 
+<!-- The track contains intersections, i.e., a track section where multiple driving directions are allowed.
 
-## 2.2 Track & racing environment
+- In the intersection area, following rules MAY apply:
 
-The competition will take place inside [Georgia World Congress Center](https://www.gwcca.org/georgia-world-congress-center). The characteristics of the environment where the track will be built are:
+    - Speed limit
+    - Right of way
+    - ...
 
-1. The surface is flat and reflective. Therefore, LiDAR beams may reflect from the ground and measure the surrounding area rather than the ground. Similarly, depth cameras have problems with proper ground detection.
-2. The track border is constructed from single height air ducts of 33 cm diameter. Keep in mind that **there will be gaps** between the pipes through which the LiDAR beams can pass.
-3. The track can be mapped in either the training sessions on each day or in the qualification session of each team. We are providing dedicated time slots for each team to map the track. Although many teams are using SLAM or vision-based localization techniques, a dedicated **Map Creation** or **Mapping** session is provided for the teams.
-4. The track will be atleast 4 car widths (120cm) wide everywhere around the track to allow for and incentivise overtaking.
-5. The track will contain a mix of choke points, sharp hairpins, wide straights and extra wide corners to test the algorithms of the cars. The track borders will contain holes on parts of the track to test out the robustness of the algorithms.
-6. No humans are allowed on the track at all times, except to repair the track or obstacles, or to remove a stopped car.
-7. Removing the car from or placing the car on the track should always be done at the border of the track from the outside.
-8. If the car is not able to drive anymore, the team has to remove the car from the track as soon as possible.
-9. All days of the competition will be streamed live on twitch on the official Roboracer channel. The stream will be available for the public to watch. 
+- The lap is marked as completed only when all track sections were driven through during it. -->
 
-## 2.3 Practice
 
-1. There will be two practice days for the competition. The first day will be dedicated to regulated practice sessions and the second day will be dedicated to open practice sessions.
+#### Surface changes
 
-2. The dedicated time slots for the regulated practice sessions will be designated on a first-come-first-serve basis. The schedule of the sessions will be shared with the teams before the competition. Each session will be 10 minutes long.
+The track surface is deliberately altered in certain track sections.
 
-3. The second day of practice will be open practice sessions. To limit the number of teams on the track at the same time, the teams will be split into groups. Each group will have a shared time for open practice. The groups will be assigned by the organizers. The schedule of the sessions will be shared with the teams before the competition. The length of these sessions will be determined by the number of teams. Tentatively, the sessions will be 4 hours long.
+- This change can both reduce or increase the surface friction.
+- On the edge of the surface change, the track does not have to be entirely flat; a small height change may occur.
+    - This change is below a certain threshold to not pose a threat to the cars.
+- Competition rules MUST specify:
+    - How the surface is altered.
+        - The surface cannot be altered by methods that could damage the cars, e.g., spilling water on the track.
+    - Maximum height change between two surfaces (mm).
 
-4. During shared practice sessions, if a car is stationary on the track for more than 5 minutes and the team does not remove the car, the car will be removed by the organizers and the team will be flagged for obstructing practice.
 
-    * Other teams are allowed to report a stationary car on the track to the organizers.
-    * If a team is flagged three times for obstructing practice, the team will be disqualified from the competition.
+#### Track splits
 
-## 2.3 Inspection
+The track contains track splits, i.e., the track section is split into multiple paths.
 
-1. The purpose of the Inspection is to check that the hardware of the autonomous cars meets the competition requirements and the cars are not dangerous for the environment, opponents, and people.
+- Driving through the track may be performed by any of the paths. They are considered equal.
+    - However, they might not be equal performance-wise, e.g., taking one of the paths might be more beneficial than the other.
+- Driving through only one of the paths is required for lap completion.
+    - It is allowed to switch between the paths in subsequent laps.
+- Competition rules MUST specify:
+    - Track width in the split section, in case it would differ from the general track width limit.
 
-2. The inspection of the vehicles is done on the first day in the morning.
 
-3. The inspection is done by the race referees.
+#### Slopes
 
-4. The inspection has to be completed before the Time Trials and after any significant changes to the cars hardware or algorithms during any of the days of the event.
+The track contains a sloped section, e.g., a bridge.
 
-## 2.4 Time Trial
+- In this section, the track is generally not flat.
+- <span style="color: red">This section MUST be delimited by walls to prevent the cars from falling off the slope.</span>
+- Competition rules MUST specify:
+    - Maximum elevation (%).
+    - <span style="color: red">Type of the delimiters if differ from the track delimiters.</span>
 
-### 2.4.1 Definitions
+_Note: When using this track feature, it can't prevent teams using single plane lidar from completing a lap._
 
-1. *Touching* means moving the object by less than 5 cm. Moving by greater distance is called *Crashing*.
 
-2. Moving the track border by any distance is called *Crashing*.
+#### Banks
 
-### 2.4.2 General
+The track contains banks, i.e., the track is elevated in the outer parts of turns.
 
-1. Each team must pass the inspection to be able to participate in the Time Trial. Any team that does not pass the inspection on the first day will be disqualified from the competition.
+- The track is not flat in this section.
+- Competition rules MUST specify:
+    - Track width that is not banked next to the bank [m].
+    - Minimum bank width [m].
+    - Maximum bank elevation [%].
 
-2. Time Trial is a race with a goal to drive through the designated track as fast as possible and as consistently as possible. The idea is to push the algorithms to their limits.
 
-3. The race consists of two heats. Each heat lasts for 5 minutes, and the goal is to drive a single lap in as short time as possible and to drive as many complete laps as possible. Crashing and stopping the car does not pause the heat timer.
+## Competition organization
+<a id="competition-organization"></a>
 
-4. The heat sessions are split in two with a one one-hour practice session in between. The teams have to book a time slot in each session. The schedule of the sessions will be shared with the teams before the race.
+The competition is composed of:
 
-5. Each team is provided two dedicated time slot for their vehicle to qualify. No time extensions are given and after the 5 minutes we move on to the next time slot and the next team. There will be 1-5 minutes of dedicated time to switch from one team to the next. If a team is not able to run the car in this dedicated time slot, the qualification phase is not passed for this team.
+- Registration
+- On-site registration
+- Practice
+- Inspection
+- Qualification
+- Time Trial
+- Head-to-Head Race
+- Awards ceremony
+- Workshop / Team presentations
 
-6. The teams are allowed to change the configuration of their algorithms in between the heats, and even during the heat. When the configuration is changed during the heat, the car must stand still. In other words, the teams cannot update the configuration on-line while the car moves.
 
-7. The map (track layout) is **known** a priori (from practice the day before) and the track layout does not change over the whole competition. Keep in mind that cars crash into the walls and the layout of the track might slightly shift a little bit. Please consider this in your algorithms.
+## Registration
+<a id="registration"></a>
 
-### 2.4.3 Requirements for Time Trial qualification
+- Team interested in participating in the competition has to register using an official registration method. This method may have its deadline.
+- Registrations received after the deadline MAY not be accepted.
+- Registration is confirmed by the competition organizers after completing all required steps. These are, but not limited to:
+    - Filling out the registration form.
+    - Submitting a video of your car driving autonomously <span style="color: red">(~1 minute)</span>.
+    - Submitting a hardware list.
+        - The hardware list will be made publicly available for other teams after the competition.
+- Not submitting in time MAY void the registration.
+- Registration not confirmed by the organizers is not deemed valid.
 
-1. Each vehicle must demonstrate that it can drive autonomously one lap through the track without crashing.
 
-2. The team must demonstrate that it is possible to trigger car emergency stop remotely.
+## Eligibility checklist
+<a id="eligibility-checklist"></a>
 
-3. Each team will have two dedicated time slots of 5 minutes each to qualify, with a one-hour break in between for all teams to practice.
+The team is eligible to attend the competition as long as:
 
-    1. The teams have to book a time slot in each session.
-    2. No time extensions are given and after the 5 minutes we move on to the next time slot and the next team.
-    3. There will be 1-5 minutes of dedicated time to switch from one team to the next.
-    4. If a team is not able to run the car in either dedicated time slots, the team fails the qualification phase and is disqualified from the competition.
+- Registration fee is paid.
+- Registration is confirmed by the organizers, i.e., the team is approved.
+- All required forms and materials are sent to the organizers by the given deadline.
+    - The car does not differ from the submitted hardware list.
 
-### 2.4.4 Penalties
 
-1. Touching the border of the track or a static obstacle is not penalized. Excessive, repeated touching (up to the organizers) is considered a crash.
+## On-site registration
+<a id="on-site-registration"></a>
 
-2. Upon crashing the track border or the static obstacle the team has to stop the car and move it (by hand or using the remote control) to the latest position before crash. After repairing the track and returning the obstacles to their appropriate locations, the race may continue. The time spent on moving the car to the checkpoint and repairing the track is considered the penalty.
+Upon their arrival at the competition site, the teams MUST promptly register on-site in order to race.
 
-### 2.4.5 Evaluation
-The competition consists of two heats: the first heat will be the trial, and the second heat will be the final. Each team will be evaluated based on the fastest lap time achieved during the competition. The final score will be cumulative, combining the results from the time trial and the head-to-head knockout races.
+- The teams MUST register on-site in the given time frame.
+    - Exceptions are allowed as long as they are granted by the organization team.
+    - If a team is late for the registration, it MUST inform the organizers (e.g., for flights with a tight deadline, they can send the flight number to the organizers, and this is considered enough notice).
 
-Fastest lap time: Teams are ranked based on their fastest lap times. In the knockout races, the car with the fastest lap wins each matchup.
+- The on-site registration is composed of:
 
-Tie-breaker: If two or more teams have identical lap times in the knockout stage, the best lap time from the open track trials on Day 2 will be used to break the tie.
+    - Confirmation of team details.
+    - Pre-registration of the car used within the competition. This also includes associating the car with its hardware list.
+        - Organizers MAY allow cars without the hardware list if they can approve all required components on the spot.
 
-To pass the qualification, a team must complete at least one lap without crashing. Teams failing to do so will be disqualified from the in-person competition.
+- Upon completing the on-site registration, the team is allowed to:
 
-## 2.5 Head-to-Head Race
+    - Attend the competition.
+    - Make use of the team-designated area.
+    - Sign in to the sessions.
 
-### 2.5.1 General
+- Not completing the on-site registration in time MAY result in a team disqualification from the competition.
 
-1. The Head-to-Head race is a race with two cars on the track at the same time.
 
-2. The racetrack has the same layout as in the training and qualification sessions.
+## Session
+<a id="session"></a>
 
-3. The algorithms must not intentionally hinder the opponent or perform any damage to it. Specifically, maneuvers such as deliberate crowding of a car beyond the edge of the track or any other abnormal change of direction are strictly prohibited. The referees will have the final say in whether a driver is in violation of this rule.
+Parts of the competitions are organized in so-called sessions.
 
-    * Should a team be found in violation of this rule, the referees will issue a warning in the form of a yellow flag. After three warnings, the team is disqualified.
+- The organizers will use the following various notification systems during the sessions, such as (but not limited to). Competition rules specify which are used:
+    - [Colored flags](#flags).
+    - [Whistles](#whistle).
 
-4. The head-to-head race will be organized as a double-elimination tournament with two brackets seeded by results of the qualification.
+- The session/slot/heat timers are fixed to the time slot, and no extensions are given.
+    - Missing out on a time slot does not give the team an additional slot.
+    - Upon their mutual agreement, the teams are allowed to exchange slots by informing the organizers at least 10 minutes before the slot starts.
 
-5. The two winners of each bracket will qualify to compete in the Final Four race. This final tournament will feature a single elimination bracket.
+- Opt-in session slots are designated on a first-come, first-served (FCFS) basis.
+    - The teams register individually for a given time slot using a method announced by the organizers during on-site registration.
+        - There MAY be a limit on the number of time slots each team can register for.
+    - These slots are contained in, but not limited to:
+        - Closed Practice
+        - Inspection
+        - Qualification
+        - Time Trial
 
-6. Before the start of **each** head-to-head race, **both** teams will be tested for obstacle avoidance and are required to use the same code for the race. Any violations to this rule could result in disqualification of the violating team (up to the organizers).
+- Organizers MUST share timetables of other session slots early enough so the teams have time to prepare.
 
-7. Teams that fail to pass the obstacle avoidance test will have the option to race on the condition that they do not overtake the opponent.
 
-    1. If the team fails to pass the obstacle avoidance test and overtakes the opponent, the team will be disqualified.
-    2. The team that failed the obstacle avoidance is permitted to use manual control when the car is 5 meters behind the opponent to slow down the car and avoid overtaking.
-    3. The faulty team is not allowed to use manual control to speed up the car and overtake the opponent.
-    4. The faulty team can only overtake the opponent if the opponent crashes.
+## Practice
+<a id="practice"></a>
 
-8. One head-to-head race consists of two teams racing against each other. One race has a dedicated timeslot of around 10 minutes. If one team is not showing up in these 10 minutes and let their car race, the other team won. If at some point along the race a car is not able to drive anymore (e.g. hardware issue, software not running etc.) and the teams are not able to restart the car withing the 10 minutes, the other team wins the race. No time extensions are given and after the 10 minutes we move on to the next time slot and the next team.
-    * Each race consists of three rounds, the team that wins two rounds wins the race.
+Practice is a session for teams to test and tune their car and algorithms on the track, including activities such as collecting data and training models.
 
-9. Both competing cars start from the same starting line used in the qualifications.
+- Practice track SHOULD contain all track features used during the competition, but its layout may differ.
+    - When the layout differs, there MUST be another practice session before the actual race to allow the teams to map the track.
 
-    1. The teams will start side-by-side seperated by one car width (30cm) from each other.
-    2. For the first round, the team that ranked higher in qualifications chooses the starting position (left or right). The other team starts on the opposite side.
-    3. In the second round, the teams switch sides. The team that started on the left side in the first round starts on the right side in the second round.
-    4. Should a third round be necessary, a coin flip will determine the starting position. The team that ranked higher in qualifications will call the coin flip (i.e heads or tails). The team that wins the coin flip chooses the starting position.
-    <!-- 2. The team that ranked higher in qualifications starts with the front bumper longitudinally at the finish line, and the center of the car is laterally 15cm to the right of the centerline.
-    3. The team that ranked lower in qualifications starts with the front bumper longitudinally 114 cm behind the finish line, and the center of the car is laterally 15cm to the left of the centerline. -->
 
-10. Overtaking may be carried out on either the right or the left.
+### Practice variants
 
-11. As opposed to time trials, no reconfiguration is allowed during the race, except after a crash, as described below.
+A list of possible practice variants follows. Competition rules specify which are used.
 
-12. Ultimately, organizers reserve the right to assign blame in the case of vehicle collision in the head-to-head tournament.
 
+#### Shared Practice (Group)
 
-14. Collisions are judged by the referees.
-    1. Collisions with track boundaries do not stop the race. The team that crashed into the track boundary must fix the track and place the car at the location of the crash. The opponent is allowed to continue. The crashed team bears the burden of the time spent on fixing the track and placing the car.
-    2. Light side-bumps and slow-speed nudges are not penalized and do not stop the race.
-    3. High-impact crashes that result in the displacement of one or both cars on crash result in a stoppage of the race.
-    4. If a car crashes into the opponent, the referees will judge which car is at fault.
-    5. Both cars will be restarted at the location of the crash, with the at-fault car placed behind the other car by 2 meters.
-    6. A crash is not considered a warning unless judged by the referees.
-    7. Crashes that result in a warning include but are not limited to "malicious" crashes where the autonomous car did not attempt to slow down or steer away from the opponent.
-      * Under special circumstances, the referees may decide to give a warning to a team with the option of stopping the race to address the issue. The team has a maximum of 5 minutes to fix the issue and resume the race.
-    8. After 3 warnings, the team is disqualified and the opponent automatically wins.
-    9. If the team that was crashed into is able to autonomously detect and recover from the crash by stopping on the side of the track, that team is granted an extra head-start of 1 meter before the restart (i.e the at-fault car is placed 3 meters behind the other car).
+Practice session where the track is opened for a subset of teams specified by the organizers.
 
-### 2.5.2 Requirements for qualification
 
-1. The team has successfully completed the Time Trial.
-2. The car must be equipped with front foam bumper, e.g., [TRA7436](https://traxxas.com/products/parts/7436) + [TRA7437](https://traxxas.com/products/parts/7437) +  [TRA7415X](https://traxxas.com/products/parts/7415X). This solution is compatible with _Slash_. Model of _Ford Fiesta_ already has this bumper.
-3. The car must be equipped with a rear bumper which is at least as high as the front bumper.
-4. The car has to be easily perceivable by the opponent’s LiDAR. Therefore, the car **must occupy a space of size at least 12×12 cm at every horizontal plane between 10 to 30 cm above the ground**.
-5. The car needs to provide beforehand that is is able to avoid static and dynamic obstacles. This is evaluated by the race referess with a test:
-   1. The cars need to run 1 lap around the racetrack that includes static and dynamic obstacles
-   2. These obstacles contain of size up to 35×32×30 cm, made from LiDAR perceivable material (e.g., cardboard).
-   3. The racecars must show their ability to avoid those obstacles
-   4. Based on this results the access to the race is granted.
+#### Open Practice
 
-### 2.5.3 Penalties
+Practice session where the track is opened for all teams.
 
-Track abuse: If a team abuses the track (e.g., deliberately cutting corners, damaging the track, or violating race boundaries excessively), they will be penalized. Penalties will be decided by a group of referees, and their decisions are final.
 
-Touching the border of the track or a static obstacle is not penalized. Excessive, repeated touching (up to the organizers) is considered a crash. (Same rules as for Time Trial.)
+#### Closed Practice (Single)
 
-Touching the opponent is not penalized unless one of the cars significantly diverges from its expected trajectory.
+Practice session where the track is reserved for one team only.
 
-Upon crashing the border of the track, the team has to fix the track and place the car on the side of the track at the place where the car first crashed the border. Then, the car can continue the race. During all of this, the opponent’s car must not be restricted by the team’s actions and the opponent is allowed to further race without stopping its car. The penalty is the time spent on fixing the track and placing the car.
 
-Upon crashing the opponent, these steps are applied:
+#### Mapping Practice
 
-Referees call the crash and signal for it by raising the red flag.
+Practice session used for mapping the track. It MAY be organized as any other practice variant with additional rules:
 
-Referees judge which car is at fault.
+- Teams are not allowed to test their racing algorithms during this practice.
+- A speed limit MAY be employed for this practice, especially when it is Shared.
+  - Not adhering to the speed limit MAY result in a warning.
 
-Both cars are placed at the location of the crash, with the at-fault car placed behind the other car by 2 meters.
 
-The referees restart the race with a green flag.
+## Inspection
+<a id="inspection"></a>
 
-### 2.5.4 Evaluation
+The purpose of the Inspection is to verify that the hardware of the cars meets the competition requirements and that the cars are not dangerous to the physical surroundings, opponents, or bystanders.
 
-1. The first car that completes **20 laps** wins.
-2. There will be at least three referees.
-3. One referee will be assigned to each car and is solely responsible to call flag raises and rule violations per-team. The third referee is tasked with enforcing penalties, crash resolution, and time-keeping.
+- The inspection of the vehicles is done in a dedicated time frame.
+- The inspection is done by the race referees.
+- The inspection MUST be completed before the Qualification.
+    - Any significant changes to the car hardware MAY void the inspection.
+    - Teams MUST inform the organizers of any changes to an inspected car.
+- When a hardware list is submitted as part of the registration, the car is checked to match these parameters.
+    - Organizers MAY also approve using cars that do not match their parameters.
+- A car that is not inspected is not allowed to be used in the competition.
 
 
+## Qualification
+<a id="qualification"></a>
+
+Qualification is a session testing the autonomous capabilities of the racing car. The goal is to complete a single lap without touching or crashing into anything, such as track borders, obstacles, or other cars.
+
+- Qualification is done with a single racing car on the track.
+    - Other cars may be used as static/dynamic obstacles.
+- Only an inspected car can be used in the Qualification. <!-- In case the team intends to use multiple cars during the competition, they have to qualify with all of them. -->
+- The car MAY be qualified during a practice session.
+- The Qualification MAY be merged with Time Trial.
+    - In this case, the obstacle avoidance capability has to be checked separately during a dedicated session, e.g., during Practice.
+- There are no penalties. Touching and/or crashing results in another try (up to the time limit).
+    - Teams MAY manually place the car to the starting line.
+- Organizers MAY add more slots based on the success rate of the teams.
+
+
+## Race
+<a id="race"></a>
+
+Main part of the competition is composed of race sessions in which the teams are scored.
+
+- Teams MUST pass the Qualification to join the races.
+
+- The race starts in one of the following ways. Competition rules specify which are used.
+    - **Manual**: Upon signaling, the teams start their cars manually.
+        - The signal can be one of many types, e.g., visual, audial.
+    - **Automatic**: Starting signal is transmitted directly into the car.
+        - The signal denoted as "Go" is sent to start the race.
+    - **Mixed**: Each competing team may select its starting method.
+        - Organizers SHOULD ensure that both signals are sent in such a way that there is no advantage of using one over the other.
+
+- The race start has one guaranteed signal: "Go". Competition rules may add other signals. <!-- _Note: Use this as a "template" for automatic startup. Then merge it._ -->
+    - Usage of other signals (such as "Ready" and "Set") MUST be specified in the competition rules.
+    - Countdowns between the signals may differ for every start.
+
+- The race is stopped (paused) by, e.g.:
+    - Raising a [red flag](#red-flag).
+    - Raising a [black flag](#black-flag).
+    - Using a [whistle](#whistle).
+
+- During the race, the [Operator](#operator) MUST maintain [Operator stance](#operator-stance) to be clear that the car is not manually controlled.
+    - Changing into this stance is a signal for the competition organizers that the team is ready for a race.
+    - Lowering the remote and raising the other hand is a signal that the emergency stop was triggered.
+
+- Obstacles and opponents may be overtaken from both the right or the left side.
+
+
+### Race penalties
+
+During a race, certain mild accidents may happen. The following steps and penalties are applied.
+
+- Touching is not penalized.
+    - Excessive or repeated touching MAY be considered a crash.
+
+- Upon crashing into an obstacle/track border, the team has to:
+    1. Stop its car.
+    2. Move the car (by hand or using the remote control) to the side of the track next to the latest position before the crash.
+    3. Repair the track and/or place the obstacles to their appropriate positions.
+    4. Wait for the clearance from the organizers (using, e.g., [a green flag](#green-flag)).
+    5. Start the car and continue the race.
+
+    - During all of this, the opponent's car must not be restricted by the team's actions, and the opponent is allowed to continue racing without stopping its car.
+
+- Upon crashing into the opponent (e.g., one of the cars significantly diverges from its expected trajectory):
+    1. Referees call the crash and pause the race; the teams have to stop their cars.
+    2. Referees judge which car is at fault.
+    3. Both cars are placed at the location of the crash, with the at-fault car placed behind the other car by 2 meters (direct distance between the cars).
+        - If the team that was crashed into is able to autonomously detect and recover from the crash by stopping on the side of the track, that team is granted an extra head-start of 1 meter before resuming the race (i.e., the at-fault car is placed 3 meters behind the other car).
+    4. The referees resume the race.
+
+
+### Race violations
+
+During a race, the following incidents are considered violations.
+
+- A crash is not considered a warning unless judged by the referees.
+    - Crashes that result in a warning include, but are not limited to, "malicious" crashes where the autonomous car did not attempt to slow down or steer away from the opponent.
+    - Under special circumstances, the referees may decide to give a warning to a team with the option of stopping the race to address the issue. The team has a maximum of 5 minutes to fix the issue and resume the race.
+        - This does not apply to [Double Elimination](#double-elimination).
+
+- The algorithms MUST NOT intentionally hinder the opponent or perform any damage to it. Specifically, maneuvers such as deliberate crowding of a car beyond the edge of the track or any other abnormal change of direction are strictly prohibited.
+    - Violating this rule MAY lead to disqualification regardless of the number of warnings issued.
+
+- During the race, the teams MUST NOT control the car manually.
+    - Triggering the emergency stop must stop the car completely.
+    - Manual control is allowed only after a crash, as specified in Race penalties.
+    - Switching to an autonomous mode MUST be done only after a clearance from the organizers (using, e.g., [a green flag](#green-flag)).
+    - Violating this rule MAY lead to disqualification regardless of the number of warnings issued.
+
+- Teams are allowed to report other teams' violations.
+    - If the reported team is found guilty, it receives a warning; otherwise, it goes to the reporting team.
+
+- Upon receiving 3 warnings, the team is disqualified from the competition.
+    - During a race, this automatically means the opponent wins.
+
+
+## Time Trial
+<a id="time-trial"></a>
+
+<!-- _Note: Competition rules should specify: #heats, time per heat; e.g. 2x5 minutes._ -->
+
+Time Trial is a race with the goal to drive through the designated track as fast as possible and as consistently as possible. The idea is to push the algorithms to their limits.
+
+- Each team MUST pass the Qualification to be able to participate in the Time Trial.
+
+- Time Trial is used as a seeding technique for the Head-to-Head Race.
+    - This does not apply if Head-to-Head does not require seeding.
+
+- The race consists of multiple heats, two by default. Each heat lasts for a given time (e.g., 5 minutes), and the goal is to drive a single lap in a time as short as possible and to drive as many complete laps as possible. Crashing and stopping the car does not pause the heat timer.
+
+- The teams are allowed to change the configuration of their algorithms between the heats and even during the heat. To update the car's configuration during a heat, the team MUST first bring the car to a complete stop; the car MUST NOT be in motion while any configuration change is being applied.
+    - In this case, the clearance for continuing the race is automatically given.
+
+- The map (track layout) is known a priori (from practice before), and the track layout does not change during the race. Note that collisions with track boundaries may cause minor shifts in the track layout over time. Teams should account for this in their algorithms.
+
+
+### Evaluation
+
+- Each team will be evaluated based on the following criteria:
+
+    - Lap time.
+        - Lap time is measured between two subsequent finish line crossings.
+        - It will be measured with a time-keeping system provided by the organizers.
+    - Consecutive uninterrupted laps.
+        - A single (1) uninterrupted lap is counted if and only if, between the last two finish line crossings:
+            - The car did not crash.
+            - The car was not moved manually in any way (e.g., using remote controller, moving by hand).
+            - _Note: Using the [kill-switch](#kill-switch) AND NOTHING ELSE to stop the car to change its configuration is allowed._
+
+- Evaluation is performed in multiple categories, each resulting in its own result table.
+
+    - Fastest lap times: Teams are ranked based on their fastest lap times.
+    - Consecutive uninterrupted laps: Teams are ranked based on the highest number of consecutive uninterrupted laps they complete.
+
+- Points are awarded in each category separately according to the ranking of the teams.
+
+    - A single (1) point is given for every team that is ranked below.
+
+- The final score for the Time Trial is the sum of the points from all categories.
+
+    - Note that the best achieved results may be from different time slots.
+    - This allows teams to push their algorithms to the limits in each of the categories.
+
+- Should a tie occur in the final ranking, the team with more consecutive uninterrupted laps is ranked higher.
+    - Additional ties are resolved by the fastest lap time.
+    - In case the teams tie with both criteria, the tie is, with respect to the seeding, resolved by a random method (e.g., coin flip).
+
+
+## Head-to-Head Race
+<a id="head-to-head-race"></a>
+
+<!-- _Competition rules have to specify: Timeslot, competition type, ..._ -->
+
+Head-to-Head race is a race with multiple cars on the track at the same time. The idea is to drive as fast as possible while not crashing into the track and/or opponent.
+
+- During a Head-to-Head race, two teams race against each other.
+
+- The initial placement of the competing cars is one of the following ways. Competition rules specify which are used.
+    - **Side-by-Side**: Both competing cars start on the same starting line.
+        - The teams will start side-by-side, approximately 30cm apart.
+    - **Staggered Grid**: Competing cars start in a staggered grid.
+        - The first starting position is placed in front of the starting line, closer to the side that should be more beneficial.
+        - The second starting position is placed 30cm to the other side, 80cm behind.
+        - In case more cars are present, their placement follows the "zig-zag" pattern.
+
+- In the first heat, the team that ranked higher in Time Trial chooses the starting position. In case of more heats:
+    - In the second heat, the teams switch sides.
+    - Should a third heat be necessary, the team that ranked higher in Time Trial chooses the starting position again.
+    - _Note: In case both teams are tied in the Time Trial results, a random method (e.g., coin flip) is used to determine the starting positions._
+
+- Similarly to Time Trial, the car MUST be brought to a complete stop before changing its configuration.
+
+
+### Tournament types
+
+A list of possible tournament types follows. Competition rules specify which are used.
+
+#### All-vs-all
+
+Every team races with every other team.
+
+- The final ranking is determined by the number of wins.
+
+<!-- _Note: This won't be probably ever used for a competition, but mostly for a small scale events._ -->
+
+<!-- _Another note: It is slightly better to do every race twice._ -->
+
+#### Single Elimination
+
+The tournament is organized as a Single Elimination in a series of rounds.
+
+- The bracket is seeded using the results of the Time Trial.
+  - The bracket should be designed properly, e.g., it should ensure balancing in the teams racing against each other.
+
+- Each race consists of up to three heats.
+  - The team that loses the race (by losing two heats) is eliminated from the tournament.
+
+#### Double Elimination
+<a id="double-elimination"></a>
+
+The tournament is organized as a Double Elimination in a series of rounds.
+
+- There are two brackets, winners' and losers'.
+- The winners' bracket is seeded using the results of the Time Trial.
+  - Similarly to Single Elimination, the bracket should be designed properly, e.g., it should ensure balancing in the teams racing against each other.
+- Each race consists of a single heat.
+  - The team that loses a race for its first time is moved to the losers' bracket.
+    - The team that loses in the losers' bracket is eliminated from the tournament.
+  - In case a team loses for its first time in the Final Round, an additional heat is provided.
+
+
+### Competition model
+
+A list of possible competition models follows. Competition rules specify which are used.
+
+#### Single Cup
+
+All teams are racing in the same Cup.
+
+
+#### Single Cup + Final Four
+
+All teams are racing in the same Cup using Double Elimination, but the finals (with the top four teams) are performed using Single Elimination.
+
+
+#### Double Cup (Classic Cup, Master Cup)
+
+<span style="color: red"><s>During</s>Before</span> the seeding, the participants are split into two groups, Cups. Note that the rules may differ between the cups. In that case, the competition rules specify how.
+
+- <span style="color: red">Each team competes in only one of the Cups.</span>
+- <span style="color: red">Brackets are seeded in each Cup separately.</span>
+
+Admission to the Master Cup (with respect to the <span style="color: red"><s>seeding</s>results of Time Trial</span>) is done as follows:
+
+- Master Cup may contain up to half of the team roster.
+- The first 4 teams automatically proceed <span style="color: red">and have to compete in the Master Cup</span>.
+- <span style="color: red"><s>Up to</s>The other teams, placing in</span> the <span style="color: red"><s>first</s>top</span> half <span style="color: red">of the Time Trial leaderboard</span>, <span style="color: red"><s>all teams</s></span> have an opportunity to either join <span style="color: red">Master Cup</span> or not.
+- The organizers MAY allow to fill the rest of the Master Cup by teams that placed top 3 in the last 3 years (1100 days).
+
+If the racing track is changed for the Master Cup, the teams are given an extra practice session to test their car and algorithms on the new track.
+
+
+### Evaluation
+
+- Each team will be evaluated based on the following criteria:
+
+    - Number of laps completed.
+
+- The first car that completes the required number of laps wins.
+    - Competition rules MUST specify the number of laps required for each race.
+    - If no car achieves this objective, the number of completed laps and the progress along the track covered in the final incomplete lap determine the winner.
+
+<!-- Consider listing other tiebreaker factors, e.g., overtakes, crashes. -->
+
+
+## Awards ceremony
+<a id="awards-ceremony"></a>
+
+The competition concludes with the Awards ceremony. The ceremony may be accompanied by a workshop session.
+
+- During the workshop session, the top 4 teams from each Cup are required to present their approach.
+    - If a team cannot attend the workshop, they may send a short video presentation instead.
+    - The presentations are shared after the competition on the competition website.

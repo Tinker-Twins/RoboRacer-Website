@@ -1,103 +1,832 @@
 [
-    {
-      "name": "Arizona State University",
-      "website": "https://www.asu.edu/",
-      "image": "partners/asu.png"
-    },
-    {
-      "name": "Autoware",
-      "website": "https://www.autoware.org/",
-      "image": "partners/autoware.jpg"
-    },
-    {
-      "name": "Binghamton University",
-      "website": "https://www.binghamton.edu/",
-      "image": "partners/binghamton.png"
-    },
-    {
-      "name": "Carnegie Mellon University",
-      "website": "https://www.cmu.edu/",
-      "image": "partners/cmu.jpg"
-    },
-    {
-      "name": "City University of New York (CUNY)",
-      "website": "https://www.cuny.edu/",
-      "image": "partners/cuny.png"
-    },
-    {
-      "name": "Clemson University",
-      "website": "http://www.clemson.edu/",
-      "image": "partners/clemson.png"
-    },
-    {
-      "name": "Columbia University",
-      "website": "https://www.columbia.edu/",
-      "image": "partners/columbia.png"
-    },
-    {
-      "name": "Czech Technical University",
-      "website": "https://www.cvut.cz/en",
-      "image": "partners/czech.png"
-    },
-    {
-      "name": "Duke University",
-      "website": "https://duke.edu/",
-      "image": "partners/duke.png"
-    },
-    {
-      "name": "ETH Zurich",
-      "website": "https://ethz.ch/en.html",
-      "image": "partners/ethzurich.png"
-    },
-    {
-      "name": "George Mason University",
-      "website": "https://www2.gmu.edu/",
-      "image": "partners/georgemason.png"
-    },
-    {
-      "name": "Georgia Tech",
-      "website": "https://www.gatech.edu/",
-      "image": "partners/GAtech.png"
-    },
-    {
-      "name": "Guizhou University",
-      "website": "http://www.gzu.edu.cn/en/",
-      "image": "partners/guizhoulogo.png"
-    },
-    {
-      "name": "Hong Kong Polytechnic University",
-      "website": "https://www.polyu.edu.hk/en/",
-      "image": "partners/hongkongpoly.png"
-    },
-    {
-      "name": "Indian Institute of Technology Bombay",
-      "website": "http://www.iitb.ac.in/",
-      "image": "partners/iit.png"
-    },
-    {
-      "name": "KAIST",
-      "website": "http://www.kaist.edu/",
-      "image": "partners/kaist.png"
-    },
-    {
-      "name": "Massachusetts Institute of Technology (MIT)",
-      "website": "http://www.mit.edu/",
-      "image": "partners/mit.png"
-    },
-    {
-      "name": "New York University (NYU)",
-      "website": "https://www.nyu.edu/",
-      "image": "partners/nyu.png"
-    },
-    {
-      "name": "University of California, Berkeley",
-      "website": "https://www.berkeley.edu/",
-      "image": "partners/ucb.png"
-    },
-    {
-      "name": "University of Pennsylvania",
-      "website": "https://www.upenn.edu/",
-      "image": "partners/upenn.png"
-    }
-  ]
-  
+  {
+    "name": "Alliance AI Lab (Johns Hopkins University)",
+    "website": "https://alliance-ai.cs.jhu.edu/robots/",
+    "image": "media/team/alliance-logo.png",
+    "category": "university",
+    "image_rest": "partners/tint/alliance-logo.webp",
+    "image_hover": "partners/color/alliance-logo.webp",
+    "width": 251,
+    "height": 240
+  },
+  {
+    "name": "Arizona State University",
+    "website": "https://www.asu.edu/",
+    "image": "partners/asu.png",
+    "category": "university",
+    "image_rest": "partners/tint/asu.webp",
+    "image_hover": "partners/color/asu.webp",
+    "width": 357,
+    "height": 239
+  },
+  {
+    "name": "Austrian Federal Ministry for Innovation, Mobility and Infrastructure (BMIMI)",
+    "website": "https://www.bmimi.gv.at/",
+    "image": "partners/bmimi.png",
+    "category": "organization",
+    "image_rest": "partners/tint/bmimi.webp",
+    "image_hover": "partners/color/bmimi.webp",
+    "width": 325,
+    "height": 199
+  },
+  {
+    "name": "Austrian Research Promotion Agency (FFG)",
+    "website": "https://www.ffg.at/",
+    "image": "partners/ffg.png",
+    "category": "organization",
+    "image_rest": "partners/tint/ffg.webp",
+    "image_hover": "partners/color/ffg.webp",
+    "width": 368,
+    "height": 142
+  },
+  {
+    "name": "Autoware",
+    "website": "https://www.autoware.org/",
+    "image": "partners/autoware.jpg",
+    "category": "organization",
+    "image_rest": "partners/tint/autoware.webp",
+    "image_hover": "partners/color/autoware.webp",
+    "width": 464,
+    "height": 187
+  },
+  {
+    "name": "Binghamton University",
+    "website": "https://www.binghamton.edu/",
+    "image": "partners/binghamton.png",
+    "category": "university",
+    "image_rest": "partners/tint/binghamton.webp",
+    "image_hover": "partners/color/binghamton.webp",
+    "width": 672,
+    "height": 224
+  },
+  {
+    "name": "Boston University",
+    "website": "https://www.bu.edu/",
+    "image": "partners/bu.png",
+    "category": "university",
+    "image_rest": "partners/tint/bu.webp",
+    "image_hover": "partners/color/bu.webp",
+    "width": 262,
+    "height": 240
+  },
+  {
+    "name": "Carnegie Mellon University",
+    "website": "https://www.cmu.edu/",
+    "image": "partners/cmu.jpg",
+    "category": "university",
+    "image_rest": "partners/tint/cmu.webp",
+    "image_hover": "partners/color/cmu.webp",
+    "width": 228,
+    "height": 152
+  },
+  {
+    "name": "City University of New York (CUNY)",
+    "website": "https://www.cuny.edu/",
+    "image": "partners/cuny.png",
+    "category": "university",
+    "image_rest": "partners/tint/cuny.webp",
+    "image_hover": "partners/color/cuny.webp",
+    "width": 558,
+    "height": 240
+  },
+  {
+    "name": "Clemson University",
+    "website": "https://www.clemson.edu/",
+    "image": "partners/clemson.png",
+    "category": "university",
+    "image_rest": "partners/tint/clemson.webp",
+    "image_hover": "partners/color/clemson.webp",
+    "width": 567,
+    "height": 141
+  },
+  {
+    "name": "Columbia University",
+    "website": "https://www.columbia.edu/",
+    "image": "partners/columbia.png",
+    "category": "university",
+    "image_rest": "partners/tint/columbia.webp",
+    "image_hover": "partners/color/columbia.webp",
+    "width": 342,
+    "height": 230
+  },
+  {
+    "name": "Czech Technical University",
+    "website": "https://www.cvut.cz/en",
+    "image": "partners/czech.png",
+    "category": "university",
+    "image_rest": "partners/tint/czech.webp",
+    "image_hover": "partners/color/czech.webp",
+    "width": 312,
+    "height": 239
+  },
+  {
+    "name": "Duke University",
+    "website": "https://duke.edu/",
+    "image": "partners/duke.png",
+    "category": "university",
+    "image_rest": "partners/tint/duke.webp",
+    "image_hover": "partners/color/duke.webp",
+    "width": 428,
+    "height": 238
+  },
+  {
+    "name": "ETH Zurich",
+    "website": "https://ethz.ch/en.html",
+    "image": "partners/ethzurich.png",
+    "category": "university",
+    "image_rest": "partners/tint/ethzurich.webp",
+    "image_hover": "partners/color/ethzurich.webp",
+    "width": 672,
+    "height": 112
+  },
+  {
+    "name": "George Mason University",
+    "website": "https://www2.gmu.edu/",
+    "image": "partners/georgemason.png",
+    "category": "university",
+    "image_rest": "partners/tint/georgemason.webp",
+    "image_hover": "partners/color/georgemason.webp",
+    "width": 369,
+    "height": 240
+  },
+  {
+    "name": "Georgia Tech",
+    "website": "https://www.gatech.edu/",
+    "image": "partners/GAtech.png",
+    "category": "university",
+    "image_rest": "partners/tint/gatech.webp",
+    "image_hover": "partners/color/gatech.webp",
+    "width": 568,
+    "height": 240
+  },
+  {
+    "name": "GM Korea",
+    "website": "https://www.gm-korea.co.kr/",
+    "image": "partners/gmkorea.png",
+    "category": "industry",
+    "image_rest": "partners/tint/gmkorea.webp",
+    "image_hover": "partners/color/gmkorea.webp",
+    "width": 672,
+    "height": 178
+  },
+  {
+    "name": "Guizhou University",
+    "website": "https://www.gzu.edu.cn/en/",
+    "image": "partners/guizhoulogo.png",
+    "category": "university",
+    "image_rest": "partners/tint/guizhoulogo.webp",
+    "image_hover": "partners/color/guizhoulogo.webp",
+    "width": 238,
+    "height": 240
+  },
+  {
+    "name": "Halmstad University",
+    "website": "https://www.hh.se/english.html",
+    "image": "partners/halmstad.jpg",
+    "category": "university",
+    "image_rest": "partners/tint/halmstad.webp",
+    "image_hover": "partners/color/halmstad.webp",
+    "width": 143,
+    "height": 178
+  },
+  {
+    "name": "Hong Kong Polytechnic University",
+    "website": "https://www.polyu.edu.hk/en/",
+    "image": "partners/hongkongpoly.png",
+    "category": "university",
+    "image_rest": "partners/tint/hongkongpoly.webp",
+    "image_hover": "partners/color/hongkongpoly.webp",
+    "width": 334,
+    "height": 64
+  },
+  {
+    "name": "HTU TU Wien",
+    "website": "https://htu.at/",
+    "image": "partners/htu.png",
+    "category": "organization",
+    "image_rest": "partners/tint/htu.webp",
+    "image_hover": "partners/color/htu.webp",
+    "width": 613,
+    "height": 180
+  },
+  {
+    "name": "Indian Institute of Technology Bombay",
+    "website": "https://www.iitb.ac.in/",
+    "image": "partners/iit.png",
+    "category": "university",
+    "image_rest": "partners/tint/iit.webp",
+    "image_hover": "partners/color/iit.webp",
+    "width": 248,
+    "height": 240
+  },
+  {
+    "name": "Institut Polytechnique de Paris",
+    "website": "https://www.ip-paris.fr/en",
+    "image": "partners/polytechparis.jpg",
+    "category": "university",
+    "image_rest": "partners/tint/polytechparis.webp",
+    "image_hover": "partners/color/polytechparis.webp",
+    "width": 663,
+    "height": 189
+  },
+  {
+    "name": "KAIST",
+    "website": "https://www.kaist.edu/",
+    "image": "partners/kaist.png",
+    "category": "university",
+    "image_rest": "partners/tint/kaist.webp",
+    "image_hover": "partners/color/kaist.webp",
+    "width": 240,
+    "height": 240
+  },
+  {
+    "name": "Kansas State University",
+    "website": "https://www.k-state.edu/",
+    "image": "partners/kansas.png",
+    "category": "university",
+    "image_rest": "partners/tint/kansas.webp",
+    "image_hover": "partners/color/kansas.webp",
+    "width": 672,
+    "height": 182
+  },
+  {
+    "name": "Karlsruhe Institute of Technology (KIT)",
+    "website": "https://www.kit.edu/english/index.php",
+    "image": "partners/kit.png",
+    "category": "university",
+    "image_rest": "partners/tint/kit.webp",
+    "image_hover": "partners/color/kit.webp",
+    "width": 480,
+    "height": 240
+  },
+  {
+    "name": "KNAPP",
+    "website": "https://www.knapp.com/en/",
+    "image": "partners/knapp.png",
+    "category": "industry",
+    "image_rest": "partners/tint/knapp.webp",
+    "image_hover": "partners/color/knapp.webp",
+    "width": 672,
+    "height": 214
+  },
+  {
+    "name": "Korea Automotive Technology Institute (KATECH)",
+    "website": "https://www.katech.re.kr/",
+    "image": "partners/katech.png",
+    "category": "organization",
+    "image_rest": "partners/tint/katech.webp",
+    "image_hover": "partners/color/katech.webp",
+    "width": 226,
+    "height": 110
+  },
+  {
+    "name": "Korea Electronics Technology Institute (KETI)",
+    "website": "https://www.keti.re.kr/",
+    "image": "partners/keti.png",
+    "category": "organization",
+    "image_rest": "partners/tint/keti.webp",
+    "image_hover": "partners/color/keti.webp",
+    "width": 576,
+    "height": 155
+  },
+  {
+    "name": "KTH Royal Institute of Technology",
+    "website": "https://www.kth.se/en",
+    "image": "partners/kth.png",
+    "category": "university",
+    "image_rest": "partners/tint/kth.webp",
+    "image_hover": "partners/color/kth.webp",
+    "width": 240,
+    "height": 240
+  },
+  {
+    "name": "Kyungpook National University",
+    "website": "https://en.knu.ac.kr/",
+    "image": "partners/kyungpook.png",
+    "category": "university",
+    "image_rest": "partners/tint/kyungpook.webp",
+    "image_hover": "partners/color/kyungpook.webp",
+    "width": 240,
+    "height": 240
+  },
+  {
+    "name": "Lehigh University",
+    "website": "https://www1.lehigh.edu/",
+    "image": "partners/lehigh.png",
+    "category": "university",
+    "image_rest": "partners/tint/lehigh.webp",
+    "image_hover": "partners/color/lehigh.webp",
+    "width": 490,
+    "height": 121
+  },
+  {
+    "name": "Lund University",
+    "website": "https://www.lunduniversity.lu.se/",
+    "image": "partners/lund.png",
+    "category": "university",
+    "image_rest": "partners/tint/lund.webp",
+    "image_hover": "partners/color/lund.webp",
+    "width": 190,
+    "height": 240
+  },
+  {
+    "name": "Magna",
+    "website": "https://www.magna.com/",
+    "image": "partners/magna.png",
+    "category": "industry",
+    "image_rest": "partners/tint/magna.webp",
+    "image_hover": "partners/color/magna.webp",
+    "width": 672,
+    "height": 158
+  },
+  {
+    "name": "Massachusetts Institute of Technology (MIT)",
+    "website": "https://www.mit.edu/",
+    "image": "partners/mit.png",
+    "category": "university",
+    "image_rest": "partners/tint/mit.webp",
+    "image_hover": "partners/color/mit.webp",
+    "width": 629,
+    "height": 165
+  },
+  {
+    "name": "Nagoya University",
+    "website": "https://en.nagoya-u.ac.jp/",
+    "image": "partners/nagoya.png",
+    "category": "university",
+    "image_rest": "partners/tint/nagoya.webp",
+    "image_hover": "partners/color/nagoya.webp",
+    "width": 258,
+    "height": 195
+  },
+  {
+    "name": "Neobotics Foundation",
+    "website": "https://neobotics.org/",
+    "image": "partners/neobotics.webp",
+    "category": "organization",
+    "image_rest": "partners/tint/neobotics.webp",
+    "image_hover": "partners/color/neobotics.webp",
+    "width": 672,
+    "height": 165
+  },
+  {
+    "name": "New York University (NYU)",
+    "website": "https://www.nyu.edu/",
+    "image": "partners/nyu.png",
+    "category": "university",
+    "image_rest": "partners/tint/nyu.webp",
+    "image_hover": "partners/color/nyu.webp",
+    "width": 594,
+    "height": 219
+  },
+  {
+    "name": "Northwestern University",
+    "website": "https://www.northwestern.edu/",
+    "image": "partners/northwestern.png",
+    "category": "university",
+    "image_rest": "partners/tint/northwestern.webp",
+    "image_hover": "partners/color/northwestern.webp",
+    "width": 372,
+    "height": 240
+  },
+  {
+    "name": "NVIDIA",
+    "website": "https://www.nvidia.com/",
+    "image": "partners/nvidia.png",
+    "image_rest": "partners/tint/nvidia.webp",
+    "image_hover": "partners/color/nvidia.webp",
+    "width": 672,
+    "height": 123,
+    "category": "industry"
+  },
+  {
+    "name": "Oregon State University",
+    "website": "https://oregonstate.edu/",
+    "image": "partners/oregon.png",
+    "category": "university",
+    "image_rest": "partners/tint/oregon.webp",
+    "image_hover": "partners/color/oregon.webp",
+    "width": 565,
+    "height": 198
+  },
+  {
+    "name": "Osaka University",
+    "website": "https://www.osaka-u.ac.jp/",
+    "image": "partners/osaka.png",
+    "category": "university",
+    "image_rest": "partners/tint/osaka.webp",
+    "image_hover": "partners/color/osaka.webp",
+    "width": 186,
+    "height": 150
+  },
+  {
+    "name": "Polish Academy of Sciences",
+    "website": "http://pan.pl/",
+    "image": "partners/pan.png",
+    "category": "organization",
+    "image_rest": "partners/tint/pan.webp",
+    "image_hover": "partners/color/pan.webp",
+    "width": 306,
+    "height": 240
+  },
+  {
+    "name": "Purdue University",
+    "website": "https://www.purdue.edu/",
+    "image": "partners/purdue.png",
+    "category": "university",
+    "image_rest": "partners/tint/purdue.webp",
+    "image_hover": "partners/color/purdue.webp",
+    "width": 212,
+    "height": 76
+  },
+  {
+    "name": "Qualisys",
+    "website": "https://www.qualisys.com/",
+    "image": "partners/qualisys.png",
+    "category": "industry",
+    "image_rest": "partners/tint/qualisys.webp",
+    "image_hover": "partners/color/qualisys.webp",
+    "width": 672,
+    "height": 178
+  },
+  {
+    "name": "Riders.ai",
+    "website": "https://riders.ai/",
+    "image": "partners/riders.png",
+    "category": "industry",
+    "image_rest": "partners/tint/riders.webp",
+    "image_hover": "partners/color/riders.webp",
+    "width": 313,
+    "height": 113
+  },
+  {
+    "name": "Rutgers University",
+    "website": "https://www.rutgers.edu/",
+    "image": "partners/rutgers.png",
+    "category": "university",
+    "image_rest": "partners/tint/rutgers.webp",
+    "image_hover": "partners/color/rutgers.webp",
+    "width": 435,
+    "height": 116
+  },
+  {
+    "name": "San Jose State University",
+    "website": "https://www.sjsu.edu/",
+    "image": "partners/sjsu.png",
+    "category": "university",
+    "image_rest": "partners/tint/sjsu.webp",
+    "image_hover": "partners/color/sjsu.webp",
+    "width": 223,
+    "height": 229
+  },
+  {
+    "name": "Seoul National University",
+    "website": "https://en.snu.ac.kr/",
+    "image": "partners/seoulnationaluni.png",
+    "category": "university",
+    "image_rest": "partners/tint/seoulnationaluni.webp",
+    "image_hover": "partners/color/seoulnationaluni.webp",
+    "width": 232,
+    "height": 240
+  },
+  {
+    "name": "Seoul National University of Science and Technology (SeoulTech)",
+    "website": "https://en.seoultech.ac.kr/",
+    "image": "partners/seoultech.png",
+    "category": "university",
+    "image_rest": "partners/tint/seoultech.webp",
+    "image_hover": "partners/color/seoultech.webp",
+    "width": 175,
+    "height": 119
+  },
+  {
+    "name": "SICK AG",
+    "website": "https://www.sick.com/",
+    "image": "partners/sick.png",
+    "category": "industry",
+    "image_rest": "partners/tint/sick.webp",
+    "image_hover": "partners/color/sick.webp",
+    "width": 300,
+    "height": 123
+  },
+  {
+    "name": "sonnet.ai",
+    "website": "https://sonnet.ai/",
+    "image": "partners/sonnetai.png",
+    "category": "industry",
+    "image_rest": "partners/tint/sonnetai.webp",
+    "image_hover": "partners/color/sonnetai.webp",
+    "width": 212,
+    "height": 179
+  },
+  {
+    "name": "Stony Brook University",
+    "website": "https://www.stonybrook.edu/",
+    "image": "partners/stonybrook.png",
+    "category": "university",
+    "image_rest": "partners/tint/stonybrook.webp",
+    "image_hover": "partners/color/stonybrook.webp",
+    "width": 333,
+    "height": 129
+  },
+  {
+    "name": "Technical University of Munich (TUM)",
+    "website": "https://www.tum.de/en/",
+    "image": "partners/munich.png",
+    "category": "university",
+    "image_rest": "partners/tint/munich.webp",
+    "image_hover": "partners/color/munich.webp",
+    "width": 461,
+    "height": 240
+  },
+  {
+    "name": "Tecnológico de Monterrey",
+    "website": "https://tec.mx/es",
+    "image": "partners/monterrey.jpg",
+    "category": "university",
+    "image_rest": "partners/tint/monterrey.webp",
+    "image_hover": "partners/color/monterrey.webp",
+    "width": 359,
+    "height": 108
+  },
+  {
+    "name": "Temple University",
+    "website": "https://www.temple.edu/",
+    "image": "partners/temple.png",
+    "category": "university",
+    "image_rest": "partners/tint/temple.webp",
+    "image_hover": "partners/color/temple.webp",
+    "width": 640,
+    "height": 195
+  },
+  {
+    "name": "Tier IV",
+    "website": "https://tier4.jp/en/",
+    "image": "partners/tier4.png",
+    "category": "industry",
+    "image_rest": "partners/tint/tier4.webp",
+    "image_hover": "partners/color/tier4.webp",
+    "width": 609,
+    "height": 138
+  },
+  {
+    "name": "TU Dortmund University",
+    "website": "https://www.tu-dortmund.de/en/",
+    "image": "partners/tu.png",
+    "category": "university",
+    "image_rest": "partners/tint/tu.webp",
+    "image_hover": "partners/color/tu.webp",
+    "width": 297,
+    "height": 232
+  },
+  {
+    "name": "TU Wien",
+    "website": "https://www.tuwien.at/en/",
+    "image": "partners/vienna.png",
+    "category": "university",
+    "image_rest": "partners/tint/vienna.webp",
+    "image_hover": "partners/color/vienna.webp",
+    "width": 599,
+    "height": 228
+  },
+  {
+    "name": "Universidad de Costa Rica",
+    "website": "https://www.ucr.ac.cr/",
+    "image": "partners/costarica.png",
+    "category": "university",
+    "image_rest": "partners/tint/costarica.webp",
+    "image_hover": "partners/color/costarica.webp",
+    "width": 277,
+    "height": 240
+  },
+  {
+    "name": "University of Antwerp",
+    "website": "https://www.uantwerpen.be/en/",
+    "image": "partners/uant.png",
+    "category": "university",
+    "image_rest": "partners/tint/uant.webp",
+    "image_hover": "partners/color/uant.webp",
+    "width": 670,
+    "height": 214
+  },
+  {
+    "name": "University of Bonn",
+    "website": "https://www.uni-bonn.de/en",
+    "image": "partners/bonn.png",
+    "category": "university",
+    "image_rest": "partners/tint/bonn.webp",
+    "image_hover": "partners/color/bonn.webp",
+    "width": 619,
+    "height": 240
+  },
+  {
+    "name": "University of California, Berkeley",
+    "website": "https://www.berkeley.edu/",
+    "image": "partners/ucb.png",
+    "category": "university",
+    "image_rest": "partners/tint/ucb.webp",
+    "image_hover": "partners/color/ucb.webp",
+    "width": 468,
+    "height": 157
+  },
+  {
+    "name": "University of California, Irvine",
+    "website": "https://uci.edu/",
+    "image": "partners/uci.png",
+    "category": "university",
+    "image_rest": "partners/tint/uci.webp",
+    "image_hover": "partners/color/uci.webp",
+    "width": 199,
+    "height": 222
+  },
+  {
+    "name": "University of California, Los Angeles",
+    "website": "https://www.ucla.edu/",
+    "image": "partners/ucla.png",
+    "category": "university",
+    "image_rest": "partners/tint/ucla.webp",
+    "image_hover": "partners/color/ucla.webp",
+    "width": 411,
+    "height": 221
+  },
+  {
+    "name": "University of California, Riverside",
+    "website": "https://www.ucr.edu/",
+    "image": "partners/ucr.png",
+    "category": "university",
+    "image_rest": "partners/tint/ucr.webp",
+    "image_hover": "partners/color/ucr.webp",
+    "width": 647,
+    "height": 147
+  },
+  {
+    "name": "University of California, San Diego",
+    "website": "https://ucsd.edu/",
+    "image": "partners/ucdsd.png",
+    "category": "university",
+    "image_rest": "partners/tint/ucdsd.webp",
+    "image_hover": "partners/color/ucdsd.webp",
+    "width": 276,
+    "height": 235
+  },
+  {
+    "name": "University of Central Florida",
+    "website": "https://www.ucf.edu/",
+    "image": "partners/ucf.png",
+    "category": "university",
+    "image_rest": "partners/tint/ucf.webp",
+    "image_hover": "partners/color/ucf.webp",
+    "width": 246,
+    "height": 240
+  },
+  {
+    "name": "University of Colorado Boulder",
+    "website": "https://www.colorado.edu/",
+    "image": "partners/colorado.png",
+    "category": "university",
+    "image_rest": "partners/tint/colorado.webp",
+    "image_hover": "partners/color/colorado.webp",
+    "width": 491,
+    "height": 240
+  },
+  {
+    "name": "University of Connecticut",
+    "website": "https://uconn.edu/",
+    "image": "partners/uconn.png",
+    "category": "university",
+    "image_rest": "partners/tint/uconn.webp",
+    "image_hover": "partners/color/uconn.webp",
+    "width": 672,
+    "height": 204
+  },
+  {
+    "name": "University of Iowa",
+    "website": "https://uiowa.edu/",
+    "image": "partners/iowa.png",
+    "category": "university",
+    "image_rest": "partners/tint/iowa.webp",
+    "image_hover": "partners/color/iowa.webp",
+    "width": 421,
+    "height": 240
+  },
+  {
+    "name": "University of Maryland",
+    "website": "https://www.umd.edu/",
+    "image": "partners/maryland.png",
+    "category": "university",
+    "image_rest": "partners/tint/maryland.webp",
+    "image_hover": "partners/color/maryland.webp",
+    "width": 391,
+    "height": 236
+  },
+  {
+    "name": "University of Modena and Reggio Emilia (UNIMORE)",
+    "website": "https://www.unimore.it/en/",
+    "image": "partners/unimore.jpg",
+    "category": "university",
+    "image_rest": "partners/tint/unimore.webp",
+    "image_hover": "partners/color/unimore.webp",
+    "width": 217,
+    "height": 240
+  },
+  {
+    "name": "University of Nebraska–Lincoln",
+    "website": "https://www.unl.edu/",
+    "image": "partners/nebraska.png",
+    "category": "university",
+    "image_rest": "partners/tint/nebraska.webp",
+    "image_hover": "partners/color/nebraska.webp",
+    "width": 500,
+    "height": 227
+  },
+  {
+    "name": "University of New Mexico",
+    "website": "https://www.unm.edu/",
+    "image": "partners/unm.png",
+    "category": "university",
+    "image_rest": "partners/tint/unm.webp",
+    "image_hover": "partners/color/unm.webp",
+    "width": 222,
+    "height": 156
+  },
+  {
+    "name": "University of North Carolina at Chapel Hill",
+    "website": "https://www.unc.edu/",
+    "image": "partners/northcarolina.png",
+    "category": "university",
+    "image_rest": "partners/tint/northcarolina.webp",
+    "image_hover": "partners/color/northcarolina.webp",
+    "width": 242,
+    "height": 229
+  },
+  {
+    "name": "University of Pennsylvania",
+    "website": "https://www.upenn.edu/",
+    "image": "partners/upenn.png",
+    "category": "university",
+    "image_rest": "partners/tint/upenn.webp",
+    "image_hover": "partners/color/upenn.webp",
+    "width": 513,
+    "height": 181
+  },
+  {
+    "name": "University of Southern California",
+    "website": "https://www.usc.edu/",
+    "image": "partners/usc.png",
+    "category": "university",
+    "image_rest": "partners/tint/usc.webp",
+    "image_hover": "partners/color/usc.webp",
+    "width": 642,
+    "height": 224
+  },
+  {
+    "name": "University of Texas at Austin",
+    "website": "https://www.utexas.edu/",
+    "image": "partners/unitexas.png",
+    "category": "university",
+    "image_rest": "partners/tint/unitexas.webp",
+    "image_hover": "partners/color/unitexas.webp",
+    "width": 240,
+    "height": 240
+  },
+  {
+    "name": "University of Toronto",
+    "website": "https://www.utoronto.ca/",
+    "image": "partners/utoronto.png",
+    "category": "university",
+    "image_rest": "partners/tint/utoronto.webp",
+    "image_hover": "partners/color/utoronto.webp",
+    "width": 323,
+    "height": 240
+  },
+  {
+    "name": "University of Virginia",
+    "website": "https://www.virginia.edu/",
+    "image": "partners/virginia.png",
+    "category": "university",
+    "image_rest": "partners/tint/virginia.webp",
+    "image_hover": "partners/color/virginia.webp",
+    "width": 372,
+    "height": 240
+  },
+  {
+    "name": "Vanderbilt University",
+    "website": "https://www.vanderbilt.edu/",
+    "image": "partners/vanderbilt.png",
+    "category": "university",
+    "image_rest": "partners/tint/vanderbilt.webp",
+    "image_hover": "partners/color/vanderbilt.webp",
+    "width": 437,
+    "height": 240
+  },
+  {
+    "name": "West Virginia University",
+    "website": "https://www.wvu.edu/",
+    "image": "partners/wvu.png",
+    "category": "university",
+    "image_rest": "partners/tint/wvu.webp",
+    "image_hover": "partners/color/wvu.webp",
+    "width": 672,
+    "height": 100
+  }
+]

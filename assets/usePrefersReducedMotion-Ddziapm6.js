@@ -1,0 +1,1 @@
+import{r as n}from"./index-CJZ_zwLI.js";const r="(prefers-reduced-motion: reduce)";function o(e){const t=window.matchMedia(r);return t.addEventListener("change",e),()=>t.removeEventListener("change",e)}function c(){return window.matchMedia(r).matches}function a(){return n.useSyncExternalStore(o,c,()=>!1)}export{a as u};

@@ -4,14 +4,61 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/logo-square.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- paper-50, the nav bar's colour, for the browser UI on phones -->
+    <meta name="theme-color" content="#fbfbfd" />
+    <meta name="description" content="RoboRacer (formerly F1TENTH) is an open-source 1/10-scale autonomous race car, the course that teaches it, and an international race series since 2016." />
     <title>RoboRacer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="/assets/index-gwQ67WcK.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-CNrc3WU0.css">
+    <link rel="preload" href="/fonts/space-grotesk-latin-500-600.woff2" as="font" type="font/woff2" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <script>
+      // Landing only: fetch the hero poster and open the connection to the
+      // media host while the app is still loading, so the poster paints as
+      // soon as the hero renders and the first clip's request skips the
+      // handshake (docs/media/HERO_PERF.md). Vite fills in the media base at
+      // build time; unset (localhost) it stays a %-placeholder and is skipped.
+      (function () {
+        if (location.pathname !== "/") return;
+        var head = document.head;
+        var poster = document.createElement("link");
+        poster.rel = "preload";
+        poster.as = "image";
+        poster.href = "/media/hero/hero-fpv-poster.webp";
+        poster.setAttribute("fetchpriority", "high");
+        head.appendChild(poster);
+        var base = "https://pub-1174c726236842f08529a0a5cc0c68fb.r2.dev";
+        if (base.charAt(0) === "%") return;
+        var pc = document.createElement("link");
+        pc.rel = "preconnect";
+        pc.href = base;
+        head.appendChild(pc);
+      })();
+    </script>
+    <script type="module" crossorigin src="/assets/index-CJZ_zwLI.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-h-F0AWh_.css">
   </head>
   <body>
     <div id="root"></div>
+    <!-- The site is a client-rendered SPA with no prerender step, so with
+         JavaScript off the root stays empty. Rather than show a blank page,
+         say so and hand over the destinations that do not need us: the docs,
+         the code and the community all live on other origins. -->
+    <noscript>
+      <div style="max-width:44rem;margin:0 auto;padding:4rem 1.5rem;font-family:ui-sans-serif,system-ui,sans-serif;color:#0b0c14;line-height:1.6">
+        <h1 style="font-size:2rem;line-height:1.1;margin:0 0 1rem">RoboRacer needs JavaScript</h1>
+        <p style="margin:0 0 1.5rem;color:#3b3f55">
+          Turn on JavaScript to see this site. These links work without it.
+        </p>
+        <ul style="margin:0;padding-left:1.2rem;color:#3b3f55">
+          <li><a href="https://f1tenth-coursekit.readthedocs.io/en/latest/" style="color:#0b0c14">Course material and lectures</a></li>
+          <li><a href="https://f1tenth.readthedocs.io/en/main/" style="color:#0b0c14">Build the car: bill of materials and assembly</a></li>
+          <li><a href="https://github.com/f1tenth" style="color:#0b0c14">Source code and simulator on GitHub</a></li>
+          <li><a href="https://join.slack.com/t/robo-racer/shared_invite/zt-47c2yt7if-BGnqzoPjipFh1HwiDazE3Q" style="color:#0b0c14">Join the community on Slack</a></li>
+          <li><a href="https://iros2026-race.roboracer.ai/" style="color:#0b0c14">Race at IROS 2026: dates, registration and rules</a></li>
+          <li><a href="mailto:contact@roboracer.ai?subject=RoboRacer%20sponsorship" style="color:#0b0c14">Sponsor a race: contact@roboracer.ai</a></li>
+        </ul>
+      </div>
+    </noscript>
   </body>
 </html>

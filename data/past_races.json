@@ -1,119 +1,158 @@
 [
-      {
-        "name": "CDC 2024 Race",
-        "url": "https://cdc2024-race.f1tenth.org/"
-      },
-      {
-        "name": "BU 2024 Race",
-        "url": "https://bu2024-race.f1tenth.org/"
-      },
-      {
-        "name": "Korea 2024 Race",
-        "url": "https://korea-race24f1tenth.org/"
-      },
-      {
-        "name": "IROS 2024 Race",
-        "url": "https://iros2024-race.f1tenth.org/"
-      },
-      {
-        "name": "ITSC 2024 Race",
-        "url": "https://itsc2024-race.f1tenth.org/"
-      },
-      {
-        "name": "SM 2024 Race",
-        "url": "https://sm2024-race.f1tenth.org/"
-      },
-      {
-        "name": "IV 2024 Race",
-        "url": "https://iv2024-race.f1tenth.org/"
-      },
-      {
-        "name": "17th Autonomous Championship",
-        "url": "https://cpsweek2024-race.f1tenth.org/index.html"
-      },
-      {
-        "name": "ICRA 2024 Race",
-        "url": "https://icra2024-race.f1tenth.org/"
-      },
-      {
-        "name": "ICRA 2024 Mad Games",
-        "url": "https://icra2024-madgames.f1tenth.org/"
-      },
-      {
-        "name": "RoboRacer Autonomous Racing Competition - Spring 2024 Course",
-        "url": ""
-      },
-      {
-        "name": "IROS 2023 Race",
-        "url": "https://iros2023-race.f1tenth.org/"
-      },
-      {
-        "name": "IROS 2023 Mad Games",
-        "url": "https://iros2023-madgames.f1tenth.org/"
-      },
-      {
-        "name": "2nd RoboRacer Korea Championship",
-        "url": "https://korea-race23.f1tenth.org/"
-      },
-      {
-        "name": "ICRA 2023 Race",
-        "url": "https://icra2023-race.f1tenth.org/"
-      },
-      {
-        "name": "CPS 2023 Race",
-        "url": "https://cps2023-race.f1tenth.org/"
-      },
-      {
-        "name": "RoboRacer IV2023 Championship",
-        "url": "https://iv2023-race.f1tenth.org/"
-      },
-      {
-        "name": "1st RoboRacer Korea Championship",
-        "url": "https://korea-race.f1tenth.org/"
-      },
-      {
-        "name": "RoboRacer Autonomous Championship Germany 2022",
-        "url": "https://germany-race2022.f1tenth.org/"
-      },
-      {
-        "name": "ICRA 2022 Race",
-        "url": "https://icra2022-race.f1tenth.org/"
-      },
-      {
-        "name": "IROS 2021 Race",
-        "url": "https://www.iros2021.org/"
-      },
-      {
-        "name": "ICRA Autonomous Racing Workshop",
-        "url": "https://linklab-uva.github.io/icra-autonomous-racing/"
-      },
-      {
-        "name": "IROS 2020 Race",
-        "url": "iros2020.html"
-      },
-      {
-        "name": "IFAC 2020 Race",
-        "url": "ifac2020.html"
-      },
-      {
-        "name": "RoboRacer Columbia 2019 Competition",
-        "url": "columbia2019.html"
-      },
-      {
-        "name": "CPS & IoTW 2019 Montreal",
-        "url": "montreal2019.html"
-      },
-      {
-        "name": "Embedded Systems Week 2018 - Torino, Italy",
-        "url": "torino2018.html"
-      },
-      {
-        "name": "Cyber Physical Systems Week 2018 - Porto, Portugal",
-        "url": "porto2018.html"
-      },
-      {
-        "name": "Embedded Systems Week 2016 - Pittsburgh, Pennsylvania",
-        "url": "pittsburgh2016.html"
-      }
-    ]
-  
+  {
+    "name": "28th RoboRacer Autonomous Racing Competition (IV 2026, Detroit)",
+    "url": "https://iv2026-race.roboracer.ai/"
+  },
+  {
+    "name": "27th RoboRacer Autonomous Racing Competition (ICRA 2026, Vienna)",
+    "url": "https://icra2026-race.roboracer.ai/"
+  },
+  {
+    "name": "ICCAS 2025 Race",
+    "url": "https://2025.iccas.org/"
+  },
+  {
+    "name": "CDC 2025 Race",
+    "url": "https://cdc2025-race.roboracer.ai/",
+    "archive": "https://web.archive.org/web/20260305115547/https://cdc2025-race.roboracer.ai/"
+  },
+  {
+    "name": "Techfest IIT-Bombay 2025 Race",
+    "url": "https://techfest.org/competitions/RoboRacer"
+  },
+  {
+    "name": "CDC 2024 Race",
+    "url": "https://cdc2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250714000527/http://cdc2024-race.f1tenth.org/"
+  },
+  {
+    "name": "BU 2024 Race",
+    "url": "https://bu2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250623043629/http://bu2024-race.f1tenth.org/"
+  },
+  {
+    "name": "Korea 2024 Race",
+    "url": "https://korea-race24f1tenth.org/",
+    "archive": "https://web.archive.org/web/20240720182003/https://korea-race24f1tenth.org/"
+  },
+  {
+    "name": "IROS 2024 Race",
+    "url": "https://iros2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20241107140818/https://iros2024-race.f1tenth.org/"
+  },
+  {
+    "name": "ITSC 2024 Race",
+    "url": "https://itsc2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250623063025/https://itsc2024-race.f1tenth.org/"
+  },
+  {
+    "name": "SM 2024 Race",
+    "url": "https://sm2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250823080045/https://sm2024-race.f1tenth.org/"
+  },
+  {
+    "name": "IV 2024 Race",
+    "url": "https://iv2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20260309090853/http://iv2024-race.f1tenth.org/"
+  },
+  {
+    "name": "17th Autonomous Championship",
+    "url": "https://cpsweek2024-race.f1tenth.org/index.html",
+    "archive": "https://web.archive.org/web/20241219060528/https://cpsweek2024-race.f1tenth.org/index.html"
+  },
+  {
+    "name": "ICRA 2024 Race",
+    "url": "https://icra2024-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250908153518/https://icra2024-race.f1tenth.org/"
+  },
+  {
+    "name": "ICRA 2024 Mad Games",
+    "url": "https://icra2024-madgames.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250829053226/https://icra2024-madgames.f1tenth.org/"
+  },
+  {
+    "name": "RoboRacer Autonomous Racing Competition - Spring 2024 Course",
+    "url": ""
+  },
+  {
+    "name": "IROS 2023 Race",
+    "url": "https://iros2023-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250823041450/https://iros2023-race.f1tenth.org/"
+  },
+  {
+    "name": "IROS 2023 Mad Games",
+    "url": "https://iros2023-madgames.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250713222618/https://iros2023-madgames.f1tenth.org/"
+  },
+  {
+    "name": "2nd RoboRacer Korea Championship",
+    "url": "https://korea-race23.f1tenth.org/"
+  },
+  {
+    "name": "ICRA 2023 Race",
+    "url": "https://icra2023-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20251004060537/https://icra2023-race.f1tenth.org/"
+  },
+  {
+    "name": "CPS 2023 Race",
+    "url": "https://cps2023-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250227164734/https://cps2023-race.f1tenth.org/"
+  },
+  {
+    "name": "RoboRacer IV2023 Championship",
+    "url": "https://iv2023-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250306022824/https://iv2023-race.f1tenth.org/"
+  },
+  {
+    "name": "1st RoboRacer Korea Championship",
+    "url": "https://korea-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20251206063348/http://korea-race.f1tenth.org/"
+  },
+  {
+    "name": "RoboRacer Autonomous Championship Germany 2022",
+    "url": "https://germany-race2022.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20221002153150/https://germany-race2022.f1tenth.org/"
+  },
+  {
+    "name": "ICRA 2022 Race",
+    "url": "https://icra2022-race.f1tenth.org/",
+    "archive": "https://web.archive.org/web/20250824120237/https://icra2022-race.f1tenth.org/"
+  },
+  {
+    "name": "IROS 2021 Race",
+    "url": "https://www.iros2021.org/",
+    "archive": "https://web.archive.org/web/20220817154341/https://www.iros2021.org"
+  },
+  {
+    "name": "ICRA Autonomous Racing Workshop",
+    "url": "https://linklab-uva.github.io/icra-autonomous-racing/"
+  },
+  {
+    "name": "IROS 2020 Race",
+    "url": "https://f1tenth.github.io/iros2020.html"
+  },
+  {
+    "name": "IFAC 2020 Race",
+    "url": "https://f1tenth.github.io/ifac2020.html"
+  },
+  {
+    "name": "RoboRacer Columbia 2019 Competition",
+    "url": "https://f1tenth.github.io/columbia2019.html"
+  },
+  {
+    "name": "CPS & IoTW 2019 Montreal",
+    "url": "https://f1tenth.github.io/montreal2019.html"
+  },
+  {
+    "name": "Embedded Systems Week 2018 - Torino, Italy",
+    "url": "https://f1tenth.github.io/torino2018.html"
+  },
+  {
+    "name": "Cyber Physical Systems Week 2018 - Porto, Portugal",
+    "url": "https://f1tenth.github.io/porto2018.html"
+  },
+  {
+    "name": "Embedded Systems Week 2016 - Pittsburgh, Pennsylvania",
+    "url": "https://f1tenth.github.io/pittsburgh2016.html"
+  }
+]

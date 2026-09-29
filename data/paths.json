@@ -1,0 +1,281 @@
+{
+  "_about": "Wayfinding. `paths` are the ways in that \"Start here\" lists, in this order: right under the landing hero (phones: `thumb`; tiles from desktop: `media.src` or `media.video`; both with `label`, `line`, `linkText`), rendered by src/components/ui/StartHere.tsx, which bundles a copy of these five to hold the section's height while this file loads: keep the two in step. Thumbs are 480x300 (16/10) cut from the media below (docs/ASSET_MANIFEST.md ST-01 to ST-05); `caption` and `credit` are kept for the record and never rendered. `tracks` are the ordered steps for the Build and Learn rebuild; nothing renders them yet (docs/LEARN_TERRAIN.md). Every href was opened on the `checked` date and answered 200.",
+  "checked": "2026-09-24",
+  "paths": [
+    {
+      "id": "build",
+      "n": "01",
+      "label": "Build",
+      "line": "Order the parts, build the car from the open-source guide and install its software.",
+      "href": "/build",
+      "linkText": "Build the car",
+      "media": {
+        "thumb": "/media/start/start-build-480.webp",
+        "src": "/media/platform/platform-build-poster.webp",
+        "width": 960,
+        "height": 540,
+        "video": "/media/platform/platform-build-960.mp4",
+        "alt": "Hands assembling a RoboRacer car on a workbench, tools beside it",
+        "caption": "assembling a car, 2x speed · build tutorial",
+        "credit": "Video: Cedric Hollande"
+      },
+      "for": ["newbie", "interested beginner", "builder", "faculty"],
+      "track": "get-running"
+    },
+    {
+      "id": "learn",
+      "n": "02",
+      "label": "Learn",
+      "line": "Lectures and labs on perception, planning and control: 15 weeks for a full semester, or 4 weeks to get a car race ready.",
+      "href": "/learn",
+      "linkText": "Start the course",
+      "media": {
+        "thumb": "/media/start/start-learn-480.webp",
+        "src": "/media/platform/platform-learn-1200.webp",
+        "width": 1200,
+        "height": 750,
+        "alt": "Two students working on a RoboRacer car on the floor of the pit area at ICRA 2026",
+        "caption": "pit work on a car · ICRA 2026, Vienna",
+        "credit": "Photo: Felix Jahncke"
+      },
+      "for": ["student", "faculty", "newbie"],
+      "track": "learn-theory"
+    },
+    {
+      "id": "race",
+      "n": "03",
+      "label": "Race",
+      "line": "Any team can register for our races at the major robotics conferences.",
+      "href": "/race",
+      "linkText": "Find the next race",
+      "media": {
+        "thumb": "/media/start/start-race-480.webp",
+        "src": "/media/platform/platform-race-poster.webp",
+        "width": 960,
+        "height": 540,
+        "video": "/media/platform/platform-race-960.mp4",
+        "alt": "A RoboRacer car with blue lights taking a corner between yellow track barriers at ICRA 2025",
+        "caption": "a car through the corner · ICRA 2025, Atlanta",
+        "credit": "Video: The Robotics Club"
+      },
+      "for": ["competitor", "faculty", "interested beginner"]
+    },
+    {
+      "id": "research",
+      "n": "04",
+      "label": "Research",
+      "line": "A shared car for autonomy research, referenced by more than 1,000 publications.",
+      "href": "/research",
+      "linkText": "Browse the research",
+      "media": {
+        "thumb": "/media/start/start-research-480.webp",
+        "src": "/media/platform/platform-research-mppi-poster.webp",
+        "width": 960,
+        "height": 600,
+        "video": "/media/platform/platform-research-mppi-960.mp4",
+        "alt": "Simulator view of a car overtaking with MPPI, its sampled paths fanning out ahead of it",
+        "caption": "MPPI overtaking in the simulator · UPenn",
+        "credit": "Video: Cedric Hollande"
+      },
+      "for": ["faculty", "student", "press"]
+    },
+    {
+      "id": "sponsor",
+      "n": "05",
+      "label": "Sponsor",
+      "line": "Reach the students and researchers who use the car at 90+ universities in 20+ countries.",
+      "href": "mailto:contact@roboracer.ai?subject=RoboRacer%20sponsorship",
+      "linkText": "Write to contact@roboracer.ai",
+      "media": {
+        "thumb": "/media/start/start-ifac2026-field-480.webp",
+        "src": "/media/news/news-ifac2026-group-1080.webp",
+        "width": 1080,
+        "height": 531,
+        "alt": "The IFAC 2026 field in Busan, arms raised in front of the 29th RoboRacer competition screen",
+        "caption": "the field · IFAC 2026, Busan",
+        "credit": "Photo: The Roboracer Foundation"
+      },
+      "for": ["sponsor", "press"],
+      "todo": "TODO(content): there is no sponsor page or sponsor block on the landing. The content skill's fallback is contact@roboracer.ai (same mailto and subject as ui/SponsorCTA). Point this at the Sponsorship Flyer (Drive 1t3aNWomqUpKMcDWbTofqmpHYkW1QAWEg, exported to public/docs/) or at a sponsor section once Cedric approves one."
+    }
+  ],
+  "tracks": [
+    {
+      "id": "get-running",
+      "title": "Get the car running",
+      "summary": "Drive a car in the simulator, build the real one, then bring up its software.",
+      "home": "/build",
+      "stages": [
+        { "id": "sim", "title": "Simulate" },
+        { "id": "build", "title": "Build" },
+        { "id": "system", "title": "System" }
+      ],
+      "estimate": {
+        "text": "10 to 15 hours for the build and bring-up, intermediate to advanced",
+        "source": "https://f1tenth.readthedocs.io/en/main/getting_started/intro.html",
+        "status": "verify"
+      },
+      "steps": [
+        {
+          "n": "01",
+          "stage": "sim",
+          "title": "Run the simulator",
+          "body": "The F1TENTH gym behind a ROS 2 bridge. Runs in Docker or on Ubuntu.",
+          "href": "https://github.com/f1tenth/f1tenth_gym_ros",
+          "links": [
+            { "label": "Simulator tutorial (course, Module A)", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/tutorial2.html" },
+            { "label": "The gym on its own (Python, multi-agent)", "href": "https://github.com/f1tenth/f1tenth_gym" },
+            { "label": "AutoDRIVE, where the Sim Racing League runs", "href": "https://autodrive-ecosystem.github.io/" }
+          ],
+          "note": "The Build docs' own simulator page (going_forward/simulator) documents the deprecated ROS 1 simulator and points to f1tenth_gym_ros. The nav's 'Simulator' link went to AutoDRIVE."
+        },
+        {
+          "n": "02",
+          "stage": "build",
+          "title": "Order the parts",
+          "body": "The bill of materials for one car.",
+          "href": "https://f1tenth.readthedocs.io/en/main/getting_started/build_car/bom.html"
+        },
+        {
+          "n": "03",
+          "stage": "build",
+          "title": "Build the car",
+          "body": "Lower chassis, autonomy elements, upper chassis, then the wiring.",
+          "href": "https://f1tenth.readthedocs.io/en/main/getting_started/build_car/index.html",
+          "links": [
+            { "label": "See every part in 3D", "href": "/assembly" }
+          ]
+        },
+        {
+          "n": "04",
+          "stage": "system",
+          "title": "Set up the Jetson",
+          "body": "Flash the Jetson, connect over Wi-Fi and SSH, install the gamepad driver.",
+          "href": "https://f1tenth.readthedocs.io/en/main/getting_started/software_setup/index.html"
+        },
+        {
+          "n": "05",
+          "stage": "system",
+          "title": "Install the driver stack",
+          "body": "Configure the VESC, install ROS 2 Humble and the driver stack, set up the LiDAR.",
+          "href": "https://f1tenth.readthedocs.io/en/main/getting_started/firmware/index.html"
+        },
+        {
+          "n": "06",
+          "stage": "system",
+          "title": "Drive it",
+          "body": "Manual control first, then odometry calibration, then your own autonomous node.",
+          "href": "https://f1tenth.readthedocs.io/en/main/getting_started/driving/index.html"
+        }
+      ],
+      "help": [
+        { "label": "Build FAQ", "href": "https://f1tenth.readthedocs.io/en/main/getting_started/faq.html" },
+        { "label": "Ask on Slack", "href": "https://join.slack.com/t/robo-racer/shared_invite/zt-47c2yt7if-BGnqzoPjipFh1HwiDazE3Q" }
+      ]
+    },
+    {
+      "id": "learn-theory",
+      "title": "Learn the theory",
+      "summary": "The course, module by module, each with its labs.",
+      "home": "/learn",
+      "plans": {
+        "source": "https://f1tenth-coursekit.readthedocs.io/en/latest/getting_started/index.html",
+        "options": [
+          { "weeks": 4, "modules": ["A", "B"], "labs": [1, 2, 3, 4], "outcome": "enough to get the car race ready" },
+          { "weeks": 10, "modules": ["A", "B", "C", "D"], "labs": [1, 2, 3, 4, 5, 6], "outcome": "teaches you to race efficiently" },
+          { "weeks": 15, "modules": ["A", "B", "C", "D", "E", "F", "G"], "labs": [1, 2, 3, 4, 5, 6, 7, 8, 9], "outcome": "the full semester" }
+        ]
+      },
+      "steps": [
+        {
+          "n": "00",
+          "title": "Pick a plan",
+          "body": "4, 10 or 15 weeks, and which modules and labs each one covers.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/getting_started/index.html",
+          "links": [
+            { "label": "Syllabus", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/introduction/syllabus.html" }
+          ]
+        },
+        {
+          "n": "A",
+          "title": "ROS 2, the car and the simulator",
+          "body": "Perception, planning and control in one lecture, then ROS 2, emergency braking and transforms.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleA/index.html",
+          "links": [
+            { "label": "Lab 1: ROS 2", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab1.html" },
+            { "label": "Lab 2: automatic emergency braking", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab2.html" }
+          ]
+        },
+        {
+          "n": "B",
+          "title": "Reactive methods",
+          "body": "PID, follow the gap, vehicle states and dynamics.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleB/index.html",
+          "links": [
+            { "label": "Lab 3: wall following", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab3.html" },
+            { "label": "Lab 4: follow the gap", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab4.html" }
+          ]
+        },
+        {
+          "n": "C",
+          "title": "Mapping and localization",
+          "body": "Filtering, the particle filter and graph-based SLAM.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleC/index.html",
+          "links": [
+            { "label": "Lab 5: SLAM and pure pursuit", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab5.html" }
+          ]
+        },
+        {
+          "n": "D",
+          "title": "Planning and control",
+          "body": "Pure pursuit, RRT and spline-based local planning.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleD/index.html",
+          "links": [
+            { "label": "Lab 6: motion planning", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab6.html" }
+          ]
+        },
+        {
+          "n": "E",
+          "title": "Vision",
+          "body": "Classical perception, then machine learning perception.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleE/index.html",
+          "links": [
+            { "label": "Lab 7: perception and vision", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab7.html" }
+          ]
+        },
+        {
+          "n": "F",
+          "title": "Special topics",
+          "body": "Detection and pose estimation, raceline optimization, model predictive control, moral decision making.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleF/index.html",
+          "links": [
+            { "label": "Lab 8: perception and planning", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab8.html" },
+            { "label": "Lab 9: robot ethics", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/lab9.html" }
+          ]
+        },
+        {
+          "n": "G",
+          "title": "The Grand Prix",
+          "body": "Project demos, race prep and the final race.",
+          "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/ModuleG/index.html",
+          "links": [
+            { "label": "The three course races", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/races/index.html" },
+            { "label": "Final project", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/final_project.html" }
+          ]
+        },
+        {
+          "n": "LB",
+          "title": "Check the class leaderboard",
+          "body": "Penn's ESE 6150 posts its best clean laps from the grading simulator here.",
+          "href": "https://roboracer-class.github.io/leaderboard/",
+          "note": "Submissions come from enrolled students' repositories; everyone else can read it."
+        }
+      ],
+      "materials": [
+        { "label": "All labs", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/labs/index.html" },
+        { "label": "Slides and material downloads", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/lectures/index.html" },
+        { "label": "Grading rubrics", "href": "https://f1tenth-coursekit.readthedocs.io/en/latest/assignments/grading.html" }
+      ]
+    }
+  ]
+}

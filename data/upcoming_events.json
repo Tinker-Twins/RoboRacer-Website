@@ -1,38 +1,52 @@
 [
-    {
-        "title": "IEEE 25th International Conference on Control, Automation, and Systems (ICCAS 2025)",
-        "dates": "Nov 4-6, 2025",
-        "location": "Songdo ConvensiA, Incheon, Korea",
-        "url": "https://2025.iccas.org/"
-    },
-    {
-        "title": "25th Roboracer Autonomous Racing Competition at the IEEE Conference on Decision and Control (CDC 2025)",
-        "dates": "Dec 9-12, 2025",
-        "location": "Rio de Janeiro, Brazil",
-        "url": "https://cdc2025-race.roboracer.ai/"
-    },
-    {
-        "title": "26th Roboracer Autonomous Racing Competition at Techfest IIT-Bombay",
-        "dates": "Dec 22-24, 2025",
-        "location": "IIT Bombay, India",
-        "url": "https://techfest.org/"
-    },
-    {
-        "title": "27th Roboracer Autonomous Racing Competition at the International Conference on Robotics and Automation (ICRA 2026)",
-        "dates": "June 1-5, 2026",
-        "location": "Vienna, Austria",
-        "url": "https://2026.ieee-icra.org/"
-    },
-    {
-        "title": "28th Roboracer Autonomous Racing Competition at the IEEE Intelligent Vehicles Symposium (IV 2026)",
-        "dates": "June 22-25, 2026",
-        "location": "Detroit, MI, USA",
-        "url": "https://ieee-iv.org/2026/"
-    },
-    {
-        "title": "29th Roboracer Autonomous Racing Competition at the IEEE Vehicular Technology Conference (VTC 2026)",
-        "dates": "Sep 6-9, 2026",
-        "location": "Boston, MA, USA",
-        "url": "https://events.vtsociety.org/vtc2026-fall/"
-    }
+  {
+    "title": "29th RoboRacer Autonomous Racing Competition at the International Federation of Automatic Control (IFAC 2026)",
+    "short_name": "IFAC 2026",
+    "dates": "August 24 to 27, 2026",
+    "location": "Busan, Republic of Korea",
+    "venue": "BEXCO",
+    "url": "https://2026ifac-roboracer.com/en/registration.html",
+    "starts_at": "2026-08-24T00:00:00+09:00",
+    "ends_at": "2026-08-27T23:59:59+09:00",
+    "schedule_note": "https://2026ifac-roboracer.com/ read 2026-08-23: '2026, Aug 24th - Aug 27th', 'BEXCO at Busan, Korea', held in person. No hour-level schedule is published, so the instants are the venue-local day bounds (KST) of the published dates.",
+    "stream_url": "https://2026ifac-roboracer.com/",
+    "stream_status": "unconfirmed",
+    "stream_note": "No stream URL exists as of 2026-08-23. The only YouTube link on the race site is an embed of tnn4isfdUCE, Unicorn Racing's sketch video of the 2025 Korea championship, not a stream. Replace stream_url and set stream_status to confirmed once a real stream goes up.",
+    "image": "/media/race/ifac2026.webp",
+    "image_alt": "The IFAC 2026 track laid out in the BEXCO exhibition hall in Busan, barriers and sponsor boards in place before the race"
+  },
+  {
+    "title": "30th RoboRacer Autonomous Racing Competition at the IEEE Vehicular Technology Conference (VTC 2026 Fall)",
+    "short_name": "VTC 2026 Fall",
+    "dates": "September 6 to 9, 2026",
+    "location": "Boston, MA, USA",
+    "url": "https://events.vtsociety.org/vtc2026-fall/",
+    "starts_at": "2026-09-06T08:00:00-04:00",
+    "ends_at": "2026-09-09T17:00:00-04:00",
+    "schedule_note": "Dates from the roboracer-content skill: VTC 2026 Fall, Sep 6-9, Boston. No hour-level schedule is published, so the instants are the venue-local day bounds (EDT).",
+    "venue": "Hilton Boston Park Plaza"
+  },
+  {
+    "title": "31st RoboRacer Autonomous Racing Competition at the IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026)",
+    "short_name": "IROS 2026",
+    "dates": "September 28 to 30, 2026",
+    "location": "Pittsburgh, PA, USA",
+    "url": "https://iros2026-race.roboracer.ai/registration.html",
+    "registration_deadline": "September 9, 2026",
+    "spotlight": true,
+    "dates_headline": "September 28 to 30, 2026, Pittsburgh",
+    "dates_secondary": "Check-in and practice September 27",
+    "starts_at": "2026-09-28T09:30:00-04:00",
+    "ends_at": "2026-09-30T18:00:00-04:00",
+    "schedule_note": "IROS Competitions Handbook via the roboracer-content skill: competition Mon Sep 28 to Wed Sep 30, opening and mapping from 9:30 on the Monday, award ceremony Wed Sep 30 16:00 to 18:00, Room 301. Sep 27 is check-in and practice and is never presented as a competition day.",
+    "register_url": "https://iros2026-race.roboracer.ai/registration.html",
+    "rules_url": "https://iros2026-race.roboracer.ai/",
+    "site_url": "https://iros2026-race.roboracer.ai/",
+    "registration_deadline_at": "2026-09-09T23:59:00-04:00",
+    "registration_deadline_note": "Cedric, 2026-08-21: display the Sep 5 date plainly. The instant is end of day Eastern, the conference's own time zone; the race page counts down to it.",
+    "timeline_url": "https://iros2026-race.roboracer.ai/timeline.html",
+    "image": "/media/race/race-iros2026-hero-poster.webp",
+    "image_alt": "The ICRA 2026 Master Cup track in Vienna, seen from above and from the bridge, with the track map",
+    "qualification_video_due": "September 9, 2026"
+  }
 ]

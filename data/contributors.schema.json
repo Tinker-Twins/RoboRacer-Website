@@ -1,0 +1,213 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://roboracer.ai/data/contributors.schema.json",
+  "title": "RoboRacer contributors",
+  "description": "Public GitHub contributors to the RoboRacer (f1tenth) organisation. Public professional profile data only: no email addresses, no phone numbers, no locations, nothing from a personal-life source.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "generated_at",
+    "source",
+    "orgs",
+    "active_since",
+    "stats",
+    "contributors"
+  ],
+  "properties": {
+    "generated_at": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "source": {
+      "type": "string",
+      "enum": [
+        "github"
+      ]
+    },
+    "orgs": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string"
+      }
+    },
+    "active_since": {
+      "type": "string",
+      "format": "date-time",
+      "description": "A contributor is active when last_commit is on or after this instant."
+    },
+    "stats": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "repos_scanned",
+        "private_repos_excluded",
+        "repos_with_commits",
+        "classroom_repos",
+        "contributors",
+        "active",
+        "past",
+        "platform_contributors"
+      ],
+      "properties": {
+        "repos_scanned": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Public repos in the org. Private repos are never harvested."
+        },
+        "private_repos_excluded": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "repos_with_commits": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "classroom_repos": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "contributors": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "active": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "past": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "platform_contributors": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    },
+    "contributors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "login",
+          "name",
+          "name_source",
+          "avatar_url",
+          "profile_url",
+          "company",
+          "blog",
+          "commits",
+          "commits_platform",
+          "first_commit",
+          "last_commit",
+          "active",
+          "platform_contributor",
+          "repos"
+        ],
+        "properties": {
+          "login": {
+            "type": "string",
+            "minLength": 1
+          },
+          "name": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "name_source": {
+            "type": [
+              "string",
+              "null"
+            ],
+            "enum": [
+              "github_profile",
+              "commit_author",
+              null
+            ],
+            "description": "Where `name` came from. commit_author = the profile has no display name, so the name they sign commits with is used."
+          },
+          "avatar_url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "profile_url": {
+            "type": "string"
+          },
+          "company": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "blog": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "commits": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "commits_platform": {
+            "type": "integer",
+            "minimum": 0,
+            "description": "Commits outside GitHub Classroom student-submission repos."
+          },
+          "first_commit": {
+            "type": "string",
+            "format": "date"
+          },
+          "last_commit": {
+            "type": "string",
+            "format": "date"
+          },
+          "active": {
+            "type": "boolean"
+          },
+          "platform_contributor": {
+            "type": "boolean",
+            "description": "True when commits_platform > 0, i.e. this person touched the platform itself, not only a course-lab submission."
+          },
+          "aliases": {
+            "type": "array",
+            "description": "Other GitHub logins merged into this entry.",
+            "items": {
+              "type": "string"
+            }
+          },
+          "repos": {
+            "type": "array",
+            "minItems": 1,
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": [
+                "name",
+                "commits",
+                "classroom"
+              ],
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "commits": {
+                  "type": "integer",
+                  "minimum": 1
+                },
+                "classroom": {
+                  "type": "boolean"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

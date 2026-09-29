@@ -1,0 +1,1484 @@
+{
+  "generated_at": "2026-08-23T19:51:00.835Z",
+  "source": "github",
+  "orgs": [
+    "f1tenth"
+  ],
+  "active_since": "2025-02-23T00:00:00Z",
+  "stats": {
+    "repos_scanned": 49,
+    "private_repos_excluded": 154,
+    "repos_with_commits": 44,
+    "classroom_repos": 0,
+    "contributors": 49,
+    "active": 14,
+    "past": 35,
+    "platform_contributors": 49
+  },
+  "contributors": [
+    {
+      "login": "hzheng40",
+      "name": "Hongrui (Billy) Zheng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/12801760?v=4",
+      "profile_url": "https://github.com/hzheng40",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 479,
+      "commits_platform": 479,
+      "first_commit": "2019-12-08",
+      "last_commit": "2026-02-02",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym_ros",
+          "commits": 86,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym",
+          "commits": 69,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_system",
+          "commits": 53,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_doc",
+          "commits": 44,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_planning",
+          "commits": 44,
+          "classroom": false
+        },
+        {
+          "name": "particle_filter",
+          "commits": 31,
+          "classroom": false
+        },
+        {
+          "name": "range_libc",
+          "commits": 22,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_docker_agent",
+          "commits": 17,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab8_template",
+          "commits": 14,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 10,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab3_template",
+          "commits": 10,
+          "classroom": false
+        },
+        {
+          "name": "f110_ros",
+          "commits": 9,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab1_template",
+          "commits": 8,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab2_template",
+          "commits": 8,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_labs",
+          "commits": 8,
+          "classroom": false
+        },
+        {
+          "name": "roboracer-site",
+          "commits": 6,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_baselines",
+          "commits": 5,
+          "classroom": false
+        },
+        {
+          "name": "ackermann_mux",
+          "commits": 4,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab5_template",
+          "commits": 4,
+          "classroom": false
+        },
+        {
+          "name": "teleop_tools",
+          "commits": 4,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab4_template",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab6_template",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_racetracks",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_simulator",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "iros_2021_logs",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "roborace_publications",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_benchmark",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym_onboard",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab7_template",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_labs_openrepo",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_scan_matching_template",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "hardware_improvements",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "icra_2022_logs",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "vesc",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "kimnluong",
+      "name": "Kim Luong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/13370293?v=4",
+      "profile_url": "https://github.com/kimnluong",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 178,
+      "commits_platform": 178,
+      "first_commit": "2020-02-23",
+      "last_commit": "2020-10-19",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_doc",
+          "commits": 95,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 63,
+          "classroom": false
+        },
+        {
+          "name": "f110_ros",
+          "commits": 7,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_labs",
+          "commits": 6,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_simulator",
+          "commits": 6,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym_ros",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "zzangupenn",
+      "name": "Zirui Zang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43392543?v=4",
+      "profile_url": "https://github.com/zzangupenn",
+      "company": null,
+      "blog": null,
+      "name_source": "commit_author",
+      "commits": 136,
+      "commits_platform": 136,
+      "first_commit": "2022-01-09",
+      "last_commit": "2023-03-28",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_lab7_template",
+          "commits": 49,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab3_template",
+          "commits": 32,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab6_template",
+          "commits": 16,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab2_template",
+          "commits": 11,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab5_template",
+          "commits": 8,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_scan_matching_template",
+          "commits": 7,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab1_template",
+          "commits": 5,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab4_template",
+          "commits": 5,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_labs_openrepo",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_labs",
+          "commits": 1,
+          "classroom": false
+        }
+      ],
+      "active_override": "xLAB current members page; confirmed by Cedric 2026-08-23"
+    },
+    {
+      "login": "AhmadAmine998",
+      "name": "Ahmad Amine",
+      "avatar_url": "https://avatars.githubusercontent.com/u/35192516?v=4",
+      "profile_url": "https://github.com/AhmadAmine998",
+      "company": "University of Pennsylvania",
+      "blog": "https://ahmadamine998.github.io/",
+      "name_source": "github_profile",
+      "commits": 62,
+      "commits_platform": 62,
+      "first_commit": "2024-09-01",
+      "last_commit": "2026-07-09",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_doc",
+          "commits": 13,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab8_template",
+          "commits": 11,
+          "classroom": false
+        },
+        {
+          "name": "roboracer-site",
+          "commits": 10,
+          "classroom": false
+        },
+        {
+          "name": "GoProROS",
+          "commits": 5,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab4_template",
+          "commits": 4,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab2_template",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab5_template",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "roboracer_rules",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab1_template",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab6_template",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab7_template",
+          "commits": 2,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym_ros",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab3_template",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_labs_openrepo",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_scan_matching_template",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Shreyas0812",
+      "name": "Shreyas Raorane",
+      "avatar_url": "https://avatars.githubusercontent.com/u/59757655?v=4",
+      "profile_url": "https://github.com/Shreyas0812",
+      "company": null,
+      "blog": "https://shreyas0812.github.io/",
+      "name_source": "github_profile",
+      "commits": 30,
+      "commits_platform": 30,
+      "first_commit": "2025-10-05",
+      "last_commit": "2026-01-20",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roboracer-site",
+          "commits": 29,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "kimestelle",
+      "name": "Eunyul Kim",
+      "avatar_url": "https://avatars.githubusercontent.com/u/137699667?v=4",
+      "profile_url": "https://github.com/kimestelle",
+      "company": null,
+      "blog": "estellekimdev.com",
+      "name_source": "github_profile",
+      "commits": 24,
+      "commits_platform": 24,
+      "first_commit": "2025-01-26",
+      "last_commit": "2025-03-10",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roboracer-site",
+          "commits": 18,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_doc",
+          "commits": 3,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "travelbureau",
+      "name": "Matthew O'Kelly",
+      "avatar_url": "https://avatars.githubusercontent.com/u/6675600?v=4",
+      "profile_url": "https://github.com/travelbureau",
+      "company": "University of Pennsylvania",
+      "blog": "http://www.mokelly.net",
+      "name_source": "github_profile",
+      "commits": 23,
+      "commits_platform": 23,
+      "first_commit": "2018-06-03",
+      "last_commit": "2021-01-22",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "F110CPSWeek2018",
+          "commits": 14,
+          "classroom": false
+        },
+        {
+          "name": "F110ESWeek2018",
+          "commits": 5,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym",
+          "commits": 4,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "nandantumu",
+      "name": "Nandan Tumu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/10603428?v=4",
+      "profile_url": "https://github.com/nandantumu",
+      "company": null,
+      "blog": "https://nandantumu.com",
+      "name_source": "github_profile",
+      "commits": 20,
+      "commits_platform": 20,
+      "first_commit": "2018-07-22",
+      "last_commit": "2024-04-26",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 11,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_benchmark",
+          "commits": 5,
+          "classroom": false
+        },
+        {
+          "name": "F110CPSWeek2018",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym_ros",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "dianax3dh",
+      "name": "Diana",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24632635?v=4",
+      "profile_url": "https://github.com/dianax3dh",
+      "company": null,
+      "blog": null,
+      "name_source": "commit_author",
+      "commits": 10,
+      "commits_platform": 10,
+      "first_commit": "2020-03-08",
+      "last_commit": "2020-07-06",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_media",
+          "commits": 8,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_doc",
+          "commits": 2,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "gundaakhil",
+      "name": "AKHIL GUNDA",
+      "avatar_url": "https://avatars.githubusercontent.com/u/64585008?v=4",
+      "profile_url": "https://github.com/gundaakhil",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 9,
+      "commits_platform": 9,
+      "first_commit": "2024-02-07",
+      "last_commit": "2024-03-25",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 9,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "ameliapqy",
+      "name": "Amelia Peng",
+      "avatar_url": "https://avatars.githubusercontent.com/u/29995404?v=4",
+      "profile_url": "https://github.com/ameliapqy",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 7,
+      "commits_platform": 7,
+      "first_commit": "2020-11-26",
+      "last_commit": "2020-12-20",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 7,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "luigiberducci",
+      "name": "Luigi Berducci",
+      "avatar_url": "https://avatars.githubusercontent.com/u/25611553?v=4",
+      "profile_url": "https://github.com/luigiberducci",
+      "company": "TU Wien",
+      "blog": "luigiberducci.github.io",
+      "name_source": "github_profile",
+      "commits": 7,
+      "commits_platform": 7,
+      "first_commit": "2024-02-04",
+      "last_commit": "2024-02-09",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_benchmark",
+          "commits": 7,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "vishnuv4",
+      "name": "Vishnu Venkatesh",
+      "avatar_url": "https://avatars.githubusercontent.com/u/144403438?v=4",
+      "profile_url": "https://github.com/vishnuv4",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 7,
+      "commits_platform": 7,
+      "first_commit": "2024-12-15",
+      "last_commit": "2024-12-21",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_powerboard_v10",
+          "commits": 7,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "jetag",
+      "name": "Tejas Agarwal",
+      "avatar_url": "https://avatars.githubusercontent.com/u/23273136?v=4",
+      "profile_url": "https://github.com/jetag",
+      "company": "Scout Robotics",
+      "blog": "https://scoutrobo.com/",
+      "name_source": "github_profile",
+      "commits": 5,
+      "commits_platform": 5,
+      "first_commit": "2023-09-03",
+      "last_commit": "2023-09-05",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_doc",
+          "commits": 5,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Amnx404",
+      "name": "Aman",
+      "avatar_url": "https://avatars.githubusercontent.com/u/91665648?v=4",
+      "profile_url": "https://github.com/Amnx404",
+      "company": "University of Pennsylvania",
+      "blog": "https://aman.craft.me/home",
+      "name_source": "github_profile",
+      "commits": 4,
+      "commits_platform": 4,
+      "first_commit": "2026-04-19",
+      "last_commit": "2026-06-16",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roboracer-site",
+          "commits": 4,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Carperis",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/41895150?v=4",
+      "profile_url": "https://github.com/Carperis",
+      "company": null,
+      "blog": null,
+      "name_source": null,
+      "commits": 4,
+      "commits_platform": 4,
+      "first_commit": "2025-03-16",
+      "last_commit": "2025-03-22",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym_ros",
+          "commits": 3,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "JohannesBetz",
+      "name": "Johannes Betz",
+      "avatar_url": "https://avatars.githubusercontent.com/u/26127579?v=4",
+      "profile_url": "https://github.com/JohannesBetz",
+      "company": "Technical University of Munich",
+      "blog": "www.mos.ed.tum.de/en/afs",
+      "name_source": "github_profile",
+      "commits": 4,
+      "commits_platform": 4,
+      "first_commit": "2021-02-14",
+      "last_commit": "2022-05-18",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "ESweek2021_educationclassA3",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_racetracks",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "F1TENTH_SVL-Simulator",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "icra_2022_logs",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "lpm0073",
+      "name": "Lawrence McDaniel",
+      "avatar_url": "https://avatars.githubusercontent.com/u/1178819?v=4",
+      "profile_url": "https://github.com/lpm0073",
+      "company": null,
+      "blog": "https://lawrencemcdaniel.com",
+      "name_source": "github_profile",
+      "commits": 4,
+      "commits_platform": 4,
+      "first_commit": "2020-12-24",
+      "last_commit": "2021-01-05",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "edx-platform",
+          "commits": 4,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "velinddimitrov-tri",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/98493975?v=4",
+      "profile_url": "https://github.com/velinddimitrov-tri",
+      "company": null,
+      "blog": null,
+      "name_source": null,
+      "commits": 4,
+      "commits_platform": 4,
+      "first_commit": "2023-02-12",
+      "last_commit": "2023-02-12",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "hardware_improvements",
+          "commits": 4,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "botforge",
+      "name": "Dhruv Karthik",
+      "avatar_url": "https://avatars.githubusercontent.com/u/20353925?v=4",
+      "profile_url": "https://github.com/botforge",
+      "company": null,
+      "blog": "https://www.linkedin.com/in/dhruvkarthik/",
+      "name_source": "github_profile",
+      "commits": 3,
+      "commits_platform": 3,
+      "first_commit": "2019-12-08",
+      "last_commit": "2019-12-12",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym_onboard",
+          "commits": 3,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "JeffersonKoumbaMoussadjiLu",
+      "name": "Jefferson Koumba Moussadji Lu",
+      "avatar_url": "https://avatars.githubusercontent.com/u/196230130?v=4",
+      "profile_url": "https://github.com/JeffersonKoumbaMoussadjiLu",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 3,
+      "commits_platform": 3,
+      "first_commit": "2026-01-11",
+      "last_commit": "2026-01-14",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_lab1_template",
+          "commits": 3,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Lj1212am",
+      "name": "Lee Milburn",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44146380?v=4",
+      "profile_url": "https://github.com/Lj1212am",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 2,
+      "commits_platform": 2,
+      "first_commit": "2025-01-19",
+      "last_commit": "2025-01-24",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_lab1_template",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab2_template",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "rahulmangharam",
+      "name": "Rahul Mangharam",
+      "avatar_url": "https://avatars.githubusercontent.com/u/856857?v=4",
+      "profile_url": "https://github.com/rahulmangharam",
+      "company": "University of Pennsylvania",
+      "blog": "http://www.seas.upenn.edu/~rahulm",
+      "name_source": "github_profile",
+      "commits": 2,
+      "commits_platform": 2,
+      "first_commit": "2024-02-14",
+      "last_commit": "2024-03-18",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_coursekit",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_doc",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "tbalch-tri",
+      "name": "Thomas Balch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/51451583?v=4",
+      "profile_url": "https://github.com/tbalch-tri",
+      "company": null,
+      "blog": null,
+      "name_source": "commit_author",
+      "commits": 2,
+      "commits_platform": 2,
+      "first_commit": "2022-06-05",
+      "last_commit": "2022-06-21",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "vesc",
+          "commits": 2,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Tinker-Twins",
+      "name": "Tinker Twins",
+      "avatar_url": "https://avatars.githubusercontent.com/u/40835293?v=4",
+      "profile_url": "https://github.com/Tinker-Twins",
+      "company": "ARMLab, CU-ICAR",
+      "blog": "https://tinker-twins.github.io",
+      "name_source": "github_profile",
+      "commits": 2,
+      "commits_platform": 2,
+      "first_commit": "2025-11-09",
+      "last_commit": "2025-11-12",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roboracer-site",
+          "commits": 2,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "zzjun725",
+      "name": "ZhijunZhuang",
+      "avatar_url": "https://avatars.githubusercontent.com/u/53960223?v=4",
+      "profile_url": "https://github.com/zzjun725",
+      "company": "University of Pennsylvania",
+      "blog": "https://zzjun725.github.io/",
+      "name_source": "github_profile",
+      "commits": 2,
+      "commits_platform": 2,
+      "first_commit": "2023-01-08",
+      "last_commit": "2023-03-01",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_lab1_template",
+          "commits": 1,
+          "classroom": false
+        },
+        {
+          "name": "f1tenth_lab6_template",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "abhaybd",
+      "name": "Abhay Deshpande",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22180942?v=4",
+      "profile_url": "https://github.com/abhaybd",
+      "company": null,
+      "blog": "abhaybd.github.io",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2022-11-27",
+      "last_commit": "2022-12-01",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "AdeebTarzi",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/228258542?v=4",
+      "profile_url": "https://github.com/AdeebTarzi",
+      "company": null,
+      "blog": null,
+      "name_source": null,
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2026-06-28",
+      "last_commit": "2026-07-01",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_doc",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "ayoubraji",
+      "name": "Ayoub Raji",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24686070?v=4",
+      "profile_url": "https://github.com/ayoubraji",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2020-07-05",
+      "last_commit": "2020-07-08",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "BDEvan5",
+      "name": "Benjamin Evans",
+      "avatar_url": "https://avatars.githubusercontent.com/u/31577482?v=4",
+      "profile_url": "https://github.com/BDEvan5",
+      "company": "InstaDeep",
+      "blog": "bd-evans.com",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2021-02-07",
+      "last_commit": "2021-02-11",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "cedrichld",
+      "name": "Cedric Hollande",
+      "avatar_url": "https://avatars.githubusercontent.com/u/153796333?v=4",
+      "profile_url": "https://github.com/cedrichld",
+      "company": "University of Pennsylvania",
+      "blog": "https://cedrichollande.com/",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2026-08-02",
+      "last_commit": "2026-08-08",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roboracer-site",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "coDeWITHpsYcho",
+      "name": "Ganesh Chandan",
+      "avatar_url": "https://avatars.githubusercontent.com/u/169760419?v=4",
+      "profile_url": "https://github.com/coDeWITHpsYcho",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2025-09-28",
+      "last_commit": "2025-10-01",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roboracer-site",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Damowerko",
+      "name": "Damian Owerko",
+      "avatar_url": "https://avatars.githubusercontent.com/u/22187221?v=4",
+      "profile_url": "https://github.com/Damowerko",
+      "company": "@Penn-Electric-Racing",
+      "blog": "damowerko.github.io",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2023-01-22",
+      "last_commit": "2023-01-22",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "eghignone",
+      "name": "Edoardo Ghignone",
+      "avatar_url": "https://avatars.githubusercontent.com/u/117913458?v=4",
+      "profile_url": "https://github.com/eghignone",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2021-10-17",
+      "last_commit": "2021-10-22",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "excuice",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/11001139?v=4",
+      "profile_url": "https://github.com/excuice",
+      "company": null,
+      "blog": null,
+      "name_source": null,
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2022-05-08",
+      "last_commit": "2022-05-08",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_lab7_template",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Gongsta",
+      "name": "Steven Gong",
+      "avatar_url": "https://avatars.githubusercontent.com/u/43485866?v=4",
+      "profile_url": "https://github.com/Gongsta",
+      "company": "University of Waterloo",
+      "blog": "stevengong.co/",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2023-05-28",
+      "last_commit": "2023-05-29",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "hanseunghan",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/32289542?v=4",
+      "profile_url": "https://github.com/hanseunghan",
+      "company": null,
+      "blog": null,
+      "name_source": null,
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2018-09-30",
+      "last_commit": "2018-10-05",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "F110ESWeek2018",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "horverno",
+      "name": "Ernő Horváth",
+      "avatar_url": "https://avatars.githubusercontent.com/u/11504709?v=4",
+      "profile_url": "https://github.com/horverno",
+      "company": "Szechenyi University",
+      "blog": "https://horverno.github.io/",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2025-06-22",
+      "last_commit": "2025-06-24",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "roborace_publications",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "jara001",
+      "name": "Jaroslav Klapálek",
+      "avatar_url": "https://avatars.githubusercontent.com/u/8387207?v=4",
+      "profile_url": "https://github.com/jara001",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2022-02-20",
+      "last_commit": "2022-02-25",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "vesc_firmware",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "jauckley",
+      "name": "Joe Auckley",
+      "avatar_url": "https://avatars.githubusercontent.com/u/28119594?v=4",
+      "profile_url": "https://github.com/jauckley",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2020-01-26",
+      "last_commit": "2020-01-28",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f110_ros",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Kurtoid",
+      "name": "Kurt Wilson",
+      "avatar_url": "https://avatars.githubusercontent.com/u/2405137?v=4",
+      "profile_url": "https://github.com/Kurtoid",
+      "company": null,
+      "blog": "kurtw.dev",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2020-10-11",
+      "last_commit": "2020-10-17",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_docker_agent",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "maforn",
+      "name": "Matteo Fornaini",
+      "avatar_url": "https://avatars.githubusercontent.com/u/44122142?v=4",
+      "profile_url": "https://github.com/maforn",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2024-12-15",
+      "last_commit": "2024-12-18",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym_ros",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "Maximellerbach",
+      "name": "Maxime Ellerbach",
+      "avatar_url": "https://avatars.githubusercontent.com/u/38923282?v=4",
+      "profile_url": "https://github.com/Maximellerbach",
+      "company": "@huggingface",
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2021-02-21",
+      "last_commit": "2021-02-21",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_racetracks",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "MLN-MNJ",
+      "name": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/144762591?v=4",
+      "profile_url": "https://github.com/MLN-MNJ",
+      "company": null,
+      "blog": null,
+      "name_source": null,
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2026-06-21",
+      "last_commit": "2026-06-25",
+      "active": true,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_doc",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "pburgio",
+      "name": "Paolo Burgio",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24732197?v=4",
+      "profile_url": "https://github.com/pburgio",
+      "company": "@HiPeRT",
+      "blog": "https://www.linkedin.com/in/paoloburgio/",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2018-06-03",
+      "last_commit": "2018-06-08",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "F110CPSWeek2018",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "snoyes",
+      "name": "Scott Noyes",
+      "avatar_url": "https://avatars.githubusercontent.com/u/4838517?v=4",
+      "profile_url": "https://github.com/snoyes",
+      "company": null,
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2022-09-18",
+      "last_commit": "2022-09-20",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_gym",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "SophieGruenbacher",
+      "name": "Sophie A. Neubauer (née Gruenbacher)",
+      "avatar_url": "https://avatars.githubusercontent.com/u/47010392?v=4",
+      "profile_url": "https://github.com/SophieGruenbacher",
+      "company": "@DatenVorsprung",
+      "blog": "https://logic-cs.at/phd/students/sophie-grunbacher",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2020-03-29",
+      "last_commit": "2020-04-02",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "f1tenth_doc",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "ValerioMagnago",
+      "name": "Valerio Magnago",
+      "avatar_url": "https://avatars.githubusercontent.com/u/18074378?v=4",
+      "profile_url": "https://github.com/ValerioMagnago",
+      "company": "Magazino GmbH",
+      "blog": null,
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2023-02-19",
+      "last_commit": "2023-02-19",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "vesc",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    },
+    {
+      "login": "varundevsukhil",
+      "name": "Varundev Sukhil",
+      "avatar_url": "https://avatars.githubusercontent.com/u/24724539?v=4",
+      "profile_url": "https://github.com/varundevsukhil",
+      "company": null,
+      "blog": "vsukhil.com",
+      "name_source": "github_profile",
+      "commits": 1,
+      "commits_platform": 1,
+      "first_commit": "2018-07-15",
+      "last_commit": "2018-07-17",
+      "active": false,
+      "platform_contributor": true,
+      "repos": [
+        {
+          "name": "F110CPSWeek2018",
+          "commits": 1,
+          "classroom": false
+        }
+      ]
+    }
+  ]
+}

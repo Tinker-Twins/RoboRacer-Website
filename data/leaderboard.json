@@ -1,0 +1,14 @@
+{
+  "label": "ESE 6150 leaderboard",
+  "url": "https://roboracer-class.github.io/leaderboard/",
+  "term": null,
+  "featured": "lab-4-follow-the-gap-lap",
+  "extra": "top_mps",
+  "limit": 5,
+  "replay": {
+    "label": "Top 5, follow the gap",
+    "note": "The best clean laps in the grading simulator, replayed.",
+    "compare": "top5"
+  },
+  "notes": "url: the class leaderboard site; its data is read from <url>data/. term: null reads the current term; an archived term's label (see <url>data/archive/index.json) pins that term instead. featured: a board slug from <url>data/index.json pins that board while it has ranked laps (Cedric, 2026-09-25: stay on lab 4, follow the gap); null picks the most recently opened lab that has ranked laps. extra: the one extra column (a metric.extras key), null for none. limit: rows shown. replay: the board's own player beside the table, loaded on click (<url>?lab=<board>&compare=<compare>, compare is top3 or top5); it follows the board chips; null hides it. See docs/LEADERBOARD.md."
+}
