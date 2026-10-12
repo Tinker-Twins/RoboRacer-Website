@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated": "2026-08-21",
+  "updated": "2026-10-12",
   "items": [
     {
       "id": "koirala-2024-f1tenth",
@@ -2647,6 +2647,124 @@
       "url": "https://www.semanticscholar.org/paper/685a7aaeafcec81ae0f748a3e81fc203fe83ee5a",
       "pdf": "https://doi.org/10.1109/access.2026.3702246",
       "abstract": "Future Cooperative Intelligent Transport Systems (C-ITSs) will impose stringent requirements on 6G mobile networks in terms of latency, data rate, and reliability. These requirements must be met in rapidly changing wireless channel conditions. Hence, their fulfillment requires rigorous and reproducible testing environments that enable a seamless transition from simulation to real-world deployment. However, existing testbeds and simulation environments either lack physical realism or fail to scale cost-effectively, hindering comprehensive C-ITS evaluation. To overcome these limitations, we implement the concept of a Digital Triplet, comprising three complementary layers: a full-scale real-world test field, a co-simulation environment for integrating additional simulated entities, and a scaled-down replica of the test field. This architecture enables reliable, reproducible, and scalable testing of future 6G-enabled C-ITS applications across different levels of abstraction. We demonstrate the applicability of the Digital Triplet through multiple case studies. For remote driving, we deploy and optimize a low-latency video streaming system and simulate a mmWave communication channel incorporating Reconfigurable Intelligent Surfaces (RISs). An up to 74% reduced median Glass-to-Glass (G2G) latency is achieved in a mobile network compared to related work using a local network. Moreover, emulating real-world vehicle localization in the scaled test field enables the implementation of cross-domain Nonlinear Model Predictive Control (NMPC)-based vehicular platooning. Finally, we evaluate the NMPC platooning controller in both decentralized (on-vehicle) and centralized (edge cloud) configurations. The results highlight the strong potential of the Digital Triplet to accelerate the development and validation of C-ITS applications within future 6G networks. Video abstract: tiny.cc/digitaltriplet"
+    },
+    {
+      "id": "liao-2026-lla",
+      "title": "LLA-MPC on Embedded Hardware: Rapid Adaptive Control with Thousands of Parallel Models",
+      "authors": [
+        "Henry Z. Liao",
+        "Maitham F. AL-Sunni",
+        "John M. Dolan"
+      ],
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "venue_short": "arXiv",
+      "type": "preprint",
+      "tags": [
+        "control-mpc",
+        "systems-platform",
+        "perception-estimation"
+      ],
+      "featured": false,
+      "status": "candidate",
+      "added": "2026-10-12",
+      "source": "openalex",
+      "notes": "relevance score 2",
+      "doi": "10.48550/arxiv.2610.03616",
+      "url": "https://doi.org/10.48550/arxiv.2610.03616",
+      "pdf": "https://arxiv.org/pdf/2610.03616",
+      "abstract": "We present a generalized implementation of Look-Back and Look-Ahead Adaptive Model Predictive Control (LLA-MPC), a learning-free framework for real-time, rapid adaptive system identification and control. The original formulation was demonstrated only in simulation, for autonomous racing with a fixed model structure. Our implementation has modular dynamics and integrators, and we validate it on the F1TENTH platform under constrained computation and noisy state estimation. The system identifies tire parameters online by evaluating thousands of candidate models in real time on an embedded computer. Experiments with low-friction tires across changing surfaces show that LLA-MPC completes high-speed tracking tasks where a fixed nominal model fails. Code, videos, and our related work are available at: https://lla-control.github.io.",
+      "institutions": [
+        "Carnegie Mellon University"
+      ]
+    },
+    {
+      "id": "al-sunni-2026-lba",
+      "title": "LBA-CBF: Rapidly Adaptive Safety Filters via Parallel Dynamics Inference",
+      "authors": [
+        "Maitham F. AL-Sunni",
+        "Timeea-Andreea Radu",
+        "Hassan Almubarak",
+        "Henry Z. Liao",
+        "Michael Görner",
+        "Francesco Maurelli",
+        "John M. Dolan"
+      ],
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "venue_short": "arXiv",
+      "type": "preprint",
+      "tags": [
+        "safety",
+        "sim-to-real"
+      ],
+      "featured": false,
+      "status": "candidate",
+      "added": "2026-10-12",
+      "source": "openalex",
+      "notes": "relevance score 2",
+      "doi": "10.48550/arxiv.2610.08765",
+      "url": "https://doi.org/10.48550/arxiv.2610.08765",
+      "pdf": "https://arxiv.org/pdf/2610.08765",
+      "abstract": "Control barrier functions (CBFs) certify commands through an assumed dynamics model, so an abrupt, unmeasured regime change can undermine the certificate exactly when safety matters most. We present Look-Back Adaptive Control Barrier Functions (LBA-CBF), which rank a finite bank of candidate dynamics by recent prediction error over a short look-back window and enforce the high-order CBF condition against every model within a tolerance of the best, spanning best-fit adaptation to full-bank robust filtering. The dynamics may depend nonlinearly on the unknown parameters, and no switching model or continuously parameterized estimator is required. We prove that any feasible filtered input satisfies the true CBF condition whenever a safety-representative candidate is retained. In quadrotor simulation with abrupt wind reversals and an unknown payload, LBA-CBF is safe and reaches the goal from all random initial conditions, matching an oracle, while adaptive and robust baselines achieve 0-88% success. Banks of up to 250,000 models run inside the control loop, and Crazyflie 2.1 and F1TENTH experiments demonstrate adaptation to wind, payload release, and varying tire-road friction. Code, videos, and project details are available at: https://lla-control.github.io"
+    },
+    {
+      "id": "oh-2026-winning",
+      "title": "Winning a Won Game: Strict Reach-Avoid-Stay Control Barrier Functions for High-Dimensional Black-Box Systems",
+      "authors": [
+        "Donggeon Oh",
+        "Duy P. Nguyen",
+        "Gongkai Yuan",
+        "Qingchen Li",
+        "Jaime F. Fisac",
+        "Haimin Hu"
+      ],
+      "year": 2026,
+      "venue": "arXiv (Cornell University)",
+      "venue_short": "arXiv",
+      "type": "preprint",
+      "tags": [
+        "safety",
+        "multi-agent",
+        "systems-platform"
+      ],
+      "featured": false,
+      "status": "candidate",
+      "added": "2026-10-12",
+      "source": "openalex",
+      "notes": "relevance score 2",
+      "doi": "10.48550/arxiv.2609.19449",
+      "url": "https://doi.org/10.48550/arxiv.2609.19449",
+      "pdf": "https://arxiv.org/pdf/2609.19449",
+      "abstract": "Robots must complete their tasks and maintain the achieved outcomes while avoiding safety failures at all times. Strict reach-avoid-stay (sRAS) formalizes this requirement: safely reaching a target and remaining there indefinitely after first entry. We propose an sRAS Q-control barrier function (CBF) safety filter for high-dimensional black-box systems under bounded uncertainty. Our construction combines a stay value encoding safe permanent residence in a target subset with a reach-avoid value encoding safe reachability of this subset while avoiding target states from which safe permanent residence cannot be guaranteed. We prove that these values jointly yield a valid robust discrete-time CBF and lift them to state-action Q-functions for runtime intervention. For exact values and under a measure-zero condition, our filter preserves sRAS feasibility from almost every winnable initial state and keeps the system safely within the target after first entry, against all admissible uncertainty realizations. We adopt reachability-based adversarial reinforcement learning for scalable value approximation using only black-box interactions. Notably, neither synthesis nor deployment of our filter requires known dynamics, affine structure, value derivatives, or hand-designed barriers. We validate our framework in quadruped gap jumping in simulation and hardware, where the robot crosses the gap, lands safely, and remains safe afterward. Simulated F1TENTH races further demonstrate safe overtaking and lead retention.",
+      "institutions": [
+        "Johns Hopkins University",
+        "Princeton University"
+      ]
+    },
+    {
+      "id": "ilie-2026-race",
+      "title": "Race to Recovery: Autonomous Drifting and its Safety Applications",
+      "authors": [
+        "Teodor Ilie"
+      ],
+      "year": 2026,
+      "venue": "QSpace (Queen's University Library)",
+      "venue_short": "QSpace (Queen's University Library)",
+      "type": "conference",
+      "tags": [
+        "sim-to-real",
+        "control-mpc",
+        "systems-platform"
+      ],
+      "featured": false,
+      "status": "candidate",
+      "added": "2026-10-12",
+      "source": "openalex",
+      "notes": "relevance score 2",
+      "url": "https://queensu.scholaris.ca/items/5527a673-16d2-442a-a43a-0f074035cc27/request-a-copy?bitstream=0a31e97f-4004-44cb-8040-e5e2590cf458",
+      "pdf": "https://queensu.scholaris.ca/items/5527a673-16d2-442a-a43a-0f074035cc27/request-a-copy?bitstream=0a31e97f-4004-44cb-8040-e5e2590cf458",
+      "abstract": "Controlling a vehicle safely at the limit of handling, such as during a skid on ice or high-speed hydroplaning, remains an open problem for Autonomous Vehicles (AVs). Current production Advanced Driver Assistance Systems (ADAS) keep the vehicle within a conservative, linear-tire handling envelope and intervene to suppress instability, but they cannot exploit the aggressive, high-sideslip maneuvers that an expert driver uses to catch and correct a slide. This thesis studies the dual problem of autonomous racing and recovery, and shows that the skill required to race a vehicle at its limit can be transferred to recover from loss-of-control more effectively. We approach both tasks with Reinforcement Learning (RL) and develop Gym-Khana, a high-fidelity, open-source simulator built for the purpose. We first train an RL racing policy that discovers drifting organically to minimize lap time, outperforming a geometric Stanley path-tracking baseline. We then formalize recovery: drawing on phase-plane analysis, we define the recovered state rigorously as a tolerance region about a stable cornering equilibrium, an alternative to the loose definitions of prior work. We then introduce a racing-to-recovery transfer learning method that adapts the racing policy to the recovery task, along with new metrics for evaluating recovery. Finally, we close the Sim2Real gap through system identification, domain randomization, and actuator-lag modelling, then deploy the transfer policy on a physical F1TENTH vehicle. Across a wide range of simulated loss-of-control states, all of our RL controllers recover far more reliably than the Stanley and model predictive control baselines. The transfer policy is the most effective, recovering 182.1% more of these states than the Stanley baseline while remaining robust across random seeds; even the untuned racing policy recovers competently with no recovery-specific training. On the real vehicle, across three loss-of-control states of increasing difficu"
     }
   ]
 }
